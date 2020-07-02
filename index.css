@@ -82,9 +82,15 @@ header{
 		align-items: center;
 		background-image: url('images/indexback.jpeg');
 		overflow:hidden;
-		font-family: "Einasemibold";
+		font-family: "Einaregular";
 		padding-left: 5vw;
 	}
+
+	.smalltext{
+		font-size: 2rem;
+		font-family: 'Einasemibold';
+	}
+
 	#contentbuttons{
 		display:flex;
 		justify-content: space-evenly;
@@ -95,11 +101,23 @@ header{
 		margin-top: 4vw;
 		height: 3vw;
 		width: 10vw;
-		font-family: "Einasemibold";
+		font-family: "Einabold";
 		font-size: 1vw;
 		border-radius: 0.2vw;
 		background-color: rgb(45,45,45);
 		color: white;
+	}
+
+	#text-button-content{
+		width:40vw;
+	}
+
+		#text-button-content #rotatetext{
+			color:rgb(35,35,35);
+			font-family: 'Einasemibold';
+		}
+	#landingimage{
+		width:60vw;
 	}
 
 	#getintouch{
