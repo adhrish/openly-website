@@ -86,6 +86,7 @@
 						font-size: 1vw;
 						border-radius: 0.2vw;
 						background-color: rgb(45,45,45);
+						box-shadow: 0vw 0vw 3vw 0vw #0003;
 					}
 
 					#getintouch{
@@ -119,8 +120,7 @@
 		font-size: 2vw;
 		background-color: rgb(45, 45, 45);
 		border-radius: 0.5vw;
-		box-shadow: 0vw 0vw 3vw 0vw #0002;
-
+		box-shadow: 0vw 0vw 3vw 0vw #0003;
 	}
 		.downloadtext{
 			font-size: 1vw;
