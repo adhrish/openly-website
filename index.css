@@ -35,89 +35,79 @@
 
 
 
-
-
-
-
-
-
-	.landing{
+	.landingpage{
 		height:50vw;
-		margin: 5vw;
-		margin-bottom: 0vw;
+		width:90vw;
+		margin: 8vw 5vw 0vw 5vw;
 		display:flex;
-		justify-content: space-evenly;
-		align-items: center;
-		background-image: url(../openly-website/images/indexback.jpeg);
-		overflow:hidden;
-		font-family: "Einaregular";
+	}
+
+		.landing-element{
+			display: flex;
+			justify-content: center;
+			flex-flow: column;
+		}
+
+			#landingpage-textcontent{
+				width:35vw;
+			}
+
+				/* #rotate-text{
+
+				} */
+
+					.static-text{
+						font-size:1.5vw;
+						font-family: 'Einasemibold';
+					}
+
+					.text-animation{
+						font-size: 2vw;
+						font-family: 'Einasemibold';
+					}
+
+
+				/* #infotext{
+					
+				} */
+
+				#landingpage-clickcontent{
+					display:flex;
+					justify-content: space-around;
+					align-items: center;
+				}
+
+					#downloadbutton{
+						border:none;
+						margin-top: 4vw;
+						height: 3vw;
+						width: 10vw;
+						font-family: "Einabold";
+						font-size: 1vw;
+						border-radius: 0.2vw;
+						background-color: rgb(45,45,45);
+					}
+
+					#getintouch{
+						display:flex;
+						justify-content: center;
+						text-align: end;
+						margin-top: 4vw;
+						height: 1vw;
+						width: 15vw;
+					}
+
+						#getintouchimage{
+							padding-top: 2px;
+							height: 1vw;
+							width:1vw;
+						}
 		
-	}
-
-	.smalltext{
-		font-size: 1.5vw;
-		font-family: 'Einasemibold';
-	}
-
-	#contentbuttons{
-		display:flex;
-		justify-content: space-evenly;
-	}
-	
-	#downloadbutton{
-		border:none;
-		margin-top: 4vw;
-		height: 3vw;
-		width: 10vw;
-		font-family: "Einabold";
-		font-size: 1vw;
-		border-radius: 0.2vw;
-		background-color: rgb(45,45,45);
-		color: white;
-	}
-
-	#text-button-content{
-		width:40vw;
-	}
-
-		#text-button-content #rotatetext{
-			color:rgb(35,35,35);
-			font-family: 'Einasemibold';
-		}
-	#landingimage{
-		width:60vw;
-	}
-
-	#getintouch{
-		text-decoration: unset;
-		font-size: 1vw;
-		margin-top: 4vw;
-		margin-left: 3.5vw;
-		font-size: 0.9vw;
-		display: flex;
-		align-items: center;
-		height: 3vw;
-	}
-
-	#getintouch .get-image {
-		height: 3vw;
-		display: flex;
-		align-items: center;
-	}
-
-		#getintouch span {
-			padding: 0;
-			margin: 0;
-			padding: 0 0 5px 0;
-		}
-		
-		#getintouchimage{
-			padding: 0;
-			height: 1vw;
-		}
-
-
-	
+			#landingpage-imagecontent{
+				height:50vw;
+				width:50vw;
+			}		
+					
 	.download{
 		display: flex;
 		justify-content: space-around;
@@ -143,6 +133,8 @@
 		font-size: 2vw;
 		margin-top: 3vw;
 		text-align: center;
+		font-family: "Einasemibold";
+		font-weight: 700;
 	}
 
 	#demoappcontainer{
@@ -162,9 +154,15 @@
 			border-radius: 0.5vw;
 		}
 
-		.text{
-			height:3.5vw;
+		.demosnap{
+			box-shadow: 0vw 0vw 3vw 0vw #0003;
+
 		}
+
+
+			.text{
+				height:3.5vw;
+			}
 	
 
 	
@@ -186,6 +184,7 @@
 		height:28vw;
 		width:42.5vw;
 		border-radius: 0.5vw;
+		box-shadow: 0vw 0vw 3vw 0vw #0003;
 		}
 		#user-section{
 			background-color: rgb(200, 200, 200);		
