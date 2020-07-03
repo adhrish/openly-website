@@ -1,0 +1,43 @@
+/* fonts*/
+@font-face
+{
+	font-family: Einalight;
+	src: url("../openly-website/font/Eina02-Light.ttf");
+}
+
+@font-face
+{
+	font-family: Einasemibold;
+	src: url("../openly-website/font/Eina02-SemiBold.ttf");
+	font-weight: bold;
+}
+
+@font-face
+{
+	font-family: Einaregular;
+	src: url("../openly-website/font/Eina02-Regular.ttf");
+	font-weight: bold; 
+}
+
+
+/* textcolor */
+.fadeblack{color:rgb(45,45,45);}
+.whitesmoke{color:whitesmoke;}
+
+/* General */
+body::-webkit-scrollbar{display: none;}
+body{
+	width:100vw;
+	margin:0;
+	font-size: 1vw;
+	font-family: 'Einaregular';
+}
+
+	header{
+		position: fixed;
+		top: 0;
+		height: 3.5vw;
+		width:100vw;
+		background-color: #fff;
+		box-shadow: 0vw 0vw 3vw 0vw #0002;
+	}
