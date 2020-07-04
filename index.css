@@ -36,7 +36,7 @@
 	.landingpage{
 		height:43vw;
 		width:90vw;
-		margin: 8vw 5vw 0vw 5vw;
+		margin: 8vw 5vw 0vw 10vw;
 		display:flex;
 	}
 
@@ -75,7 +75,6 @@
 						font-family: "Einabold";
 						font-size: 1vw;
 						border-radius: 0.2vw;
-						background-color: rgb(45,45,45);
 						box-shadow: 0vw 0vw 3vw 0vw #0003;
 					}
 
@@ -105,7 +104,6 @@
 		padding:5vw;		
 		font-size: 2vw;
 		border-radius: 0.5vw;
-		background-color: rgb(45, 45, 45);
 		display: flex;
 		justify-content: space-around;
 		align-items:center;		
@@ -155,7 +153,6 @@
 
 	
 	
-	
 	#ubsection{
 		width:90vw;
 		height:28vw;
@@ -168,20 +165,199 @@
 		height:28vw;
 		width:42.5vw;
 		margin:0;
+		padding: 4vw 0 0 0 ;
 		border-radius: 0.5vw;
 		text-align: center;
+		box-sizing: border-box;
 		box-shadow: 0vw 0vw 3vw 0vw #0003;
 		}
-		#user-section{
-			background-color: rgb(200, 200, 200);		
-		}
 
-			.ubsectionmaintext{
+			.ubsectionelementimage{
+				margin: 2vw 10vw 2vw 10vw;
+				background-color: rgb(56, 95, 69);
+				height: 16vw;
+				width: 22.5vw;
+			}
+
+
+			#user-section{
+				background-color: rgb(219, 214, 214);		
+			}
+
+				.ubsectionmaintext{
+					font-size: 2vw;
+					font-family: "Einasemibold";;
+				}
+				
+	}
+
+
+
+	footer{
+		height:88vw;
+		width:100vw;
+		box-sizing: border-box;
+		padding: 5vw 10vw 5vw 10vw;
+		
+	}
+			.firstfootersection{
+				height:10vw;
+				width:80vw;
+				display:flex;
+				border-bottom: grey;
+				margin-bottom: 5vw;				
+			}
+
+			.firstfootersection-heading{
 				font-size: 2vw;
 				font-family: "Einasemibold";
 			}
+				#linkssection{
+					display:flex;
+					justify-content: space-evenly;
+					flex-flow:column;
+					height:10vw;
+					width:30vw;
+				}	
+					
+					.links{
+						text-decoration: unset;
+						padding:0vw 0 1vw 0;
+						text-align: left;
+						font-size: 0.9vw;
+						line-height: 2.3vw;
+					}
+
+				.openlytext{
+					width:25vw;
+					font-size: 1vw;
+					padding: 1.5vw;
+				}	
+
+				.fromplaystore{
+					height:4vw;
+					width:10vw;
+				}
+				#downloadmarketplaceapp{
+					width: 25vw;
+					height:10vw;
+					flex-flow: column
+				}
+
+				#downloadbusinessapp{
+					width:25vw;
+					height:10vw;
+					flex-flow: column;
+				}
+
+					
+			.secondfootersection{		
+				border-top: 2px grey solid;
+				height: 20vw;
+				width:80vw;
+				display:flex;
+			}	
+
+				#sectionleft{
+					padding:0 0 0 0;
+					width:40vw;
+					display:flex;
+					flex-flow: column;
+					justify-content: space-between;
+				}
+				
+
+					.footerforms{
+						border:0;
+						border-radius: 0.2vw;
+						background-color: rgb(151, 154, 155);
+						text-decoration: unset;
+						height:2.5vw;
+						font-size: 1vw;
+						width: 30vw;
+						text-decoration-color: whitesmoke;
+					}
+
+					.footerbutton{
+						height:2.5vw;
+						width:8vw;
+						border: 0;
+						font:1vw;
+						border-radius:0.2vw;
+						align-self: center;
+						font-family: "Einasemibold";
+					}
+						#whatsapp{
+							background-color: rgb(79, 233, 49);
+						}
+
+					.radiobutton{
+						text-decoration: rgb(45, 45, 45);
+						border:0;
+					}
+
+				#sectionright{
+					width:40vw;
+					display:flex;
+					flex-flow: column;
+					justify-content: space-between;
+				}
+
+					#followopenlytext{
+						margin:0;
+					}
+
+					#gethelpdiv{
+						padding-bottom: 4vw;
+					}
+
+						#whatsapp{
+							font-size: 1vw;
+							margin-top: 1.5vw;
+						}
+
+					#footersociallinkscontainer
+					{	
+						margin:1.5vw 0 0 0;
+						height: 1vw;
+					}
+					.footersociallinks
+							{
+								display: inline-block;
+								height: 1.7vw;
+								margin-right: 2vw;
+							}
+
+							.footerlinksimage
+							{	
+								
+								height: 100%;
+							}
 			
-		#business-section{
-			background-color: rgb(35,35,35);
-		}
-	}
+
+			#thirdfootersection{
+				margin: 5vw 0 0 0;
+				border-top: 2px grey solid;
+				border-bottom: 2px grey solid;
+				height:40vw;
+			}
+
+				.columns{
+					padding:0;
+					display:flex;
+					justify-content: space-between;
+				}
+			
+			#fourthfootersection{
+				height:2vw;
+				width:80vw;
+				padding:0;
+				margin:0;
+				font-size: 0.8vw;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.footerheading{
+				font-size: 1.5vw;
+			}
