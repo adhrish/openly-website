@@ -33,10 +33,8 @@
 
 
 
-
-
 	.landingpage{
-		height:50vw;
+		height:43vw;
 		width:90vw;
 		margin: 8vw 5vw 0vw 5vw;
 		display:flex;
@@ -52,10 +50,6 @@
 				width:35vw;
 			}
 
-				/* #rotate-text{
-
-				} */
-
 					.static-text{
 						font-size:1.5vw;
 						font-family: 'Einasemibold';
@@ -66,10 +60,6 @@
 						font-family: 'Einasemibold';
 					}
 
-
-				/* #infotext{
-					
-				} */
 
 				#landingpage-clickcontent{
 					display:flex;
@@ -105,44 +95,41 @@
 						}
 		
 			#landingpage-imagecontent{
-				height:50vw;
+				height:43vw;
 				width:50vw;
 			}		
 					
-	.download{
+
+	.downloadcount{
+		margin:0vw 5vw 5vw 5vw;
+		padding:5vw;		
+		font-size: 2vw;
+		border-radius: 0.5vw;
+		background-color: rgb(45, 45, 45);
 		display: flex;
 		justify-content: space-around;
-		align-items:center;
-		margin: 5vw;
-		margin-top:0vw;
-		padding:5vw;
-		color: white;
-		font-size: 2vw;
-		background-color: rgb(45, 45, 45);
-		border-radius: 0.5vw;
+		align-items:center;		
 		box-shadow: 0vw 0vw 3vw 0vw #0003;
+		font-family: "Einasemibold";
 	}
 		.downloadtext{
 			font-size: 1vw;
+			font-family: "Einasemibold";
 		}
 
 	
 	#marketplacetext{
-		color: rgb(45, 45, 45);
-		font-weight: 900;
 		font-size: 2vw;
-		margin-top: 3vw;
+		font-weight: 900;
+		margin-top: 3vw 0vw 0vw 0vw;
+		color: rgb(45, 45, 45);
 		text-align: center;
 		font-family: "Einasemibold";
 		font-weight: 700;
 	}
 
-	#demoappcontainer{
-		margin-top: 5vw;
-		margin-left: 10vw;
-		margin-right: 10vw;
-		height:16vw;
-		width:80vw;
+	#demoappcontainer{		
+		margin: 5vw 10vw 0 10vw;
 		display:flex;
 		justify-content: space-between;
 		text-align: center;
@@ -161,6 +148,7 @@
 
 
 			.text{
+				font-size: 0.9vw;
 				height:3.5vw;
 			}
 	
@@ -169,21 +157,19 @@
 	
 	
 	#ubsection{
-		margin:5vw;
 		width:90vw;
 		height:28vw;
-		margin-top: 10vw;
+		margin:10vw 5vw 5vw 5vw;
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 5vw;
 	}
 
 	.ubsectionelement{
-		margin:0;
-		text-align: center;
 		height:28vw;
 		width:42.5vw;
+		margin:0;
 		border-radius: 0.5vw;
+		text-align: center;
 		box-shadow: 0vw 0vw 3vw 0vw #0003;
 		}
 		#user-section{

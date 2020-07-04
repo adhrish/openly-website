@@ -16,7 +16,8 @@
 {
 	font-family: Einaregular;
 	src: url("../openly-website/font/Eina02-Regular.ttf");
-	font-weight: bold; 
+	font-weight: 900; 
+	color: rgb(45,45,45);
 }
 
 
