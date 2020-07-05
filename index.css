@@ -13,6 +13,7 @@
 		transition-duration: 0.3s;
 	}
 
+
 		.header-items{
 			margin-left:5vw;
 			padding:0.8vw;
@@ -22,7 +23,21 @@
 			color:rgb(35,35,35);
 			font-size: 0.9vw;
 			font-family: "Einasemibold";
+			display:flex;
+			align-items: center;
+
 		}
+			#logocontent{
+				margin-left:0;
+				transition-duration: 0.3s;
+			}
+
+			#logotextopenly{
+				text-decoration: none;
+				margin: 0 0 0 0.4vw;
+				font-family: "Einasemibold";
+				transition-duration: 0.3s;
+			}
 
 			#header-logo{
 				margin:0;
@@ -374,4 +389,9 @@
 				justify-content: space-between;
 			}
 
+
+			#innsta:hover{
+				background-color: rgb(219, 141, 154);
+				overflow:hidden;
+			}
 		
