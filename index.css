@@ -1,5 +1,9 @@
 /* for desktop */
 @media (min-aspect-ratio:1/1){
+
+
+
+	/* header */
 	header{
 		display: flex;	
 		align-items: center;
@@ -16,7 +20,7 @@
 			padding-bottom: 0.5vw;
 			text-decoration: none;
 			color:rgb(35,35,35);
-			font-size: 0.vw;
+			font-size: 0.9vw;
 			font-family: "Einasemibold";
 		}
 
@@ -33,6 +37,8 @@
 
 
 
+
+	/* landingpage styling		 */
 	.landingpage{
 		height:43vw;
 		width:90vw;
@@ -40,6 +46,7 @@
 		display:flex;
 	}
 
+		/* landing page left side styling  */
 		.landing-element{
 			display: flex;
 			justify-content: center;
@@ -50,15 +57,11 @@
 				width:35vw;
 			}
 
-					.static-text{
-						font-size:1.5vw;
-						font-family: 'Einasemibold';
-					}
-
 					.text-animation{
 						font-size: 2vw;
 						font-family: 'Einasemibold';
 					}
+
 
 
 				#landingpage-clickcontent{
@@ -72,7 +75,7 @@
 						margin-top: 4vw;
 						height: 3vw;
 						width: 10vw;
-						font-family: "Einabold";
+						font-family: "Einasemibold";
 						font-size: 1vw;
 						border-radius: 0.2vw;
 						box-shadow: 0vw 0vw 3vw 0vw #0003;
@@ -88,27 +91,28 @@
 					}
 
 						#getintouchimage{
-							padding-top: 2px;
 							height: 1vw;
 							width:1vw;
 						}
 		
+		/* landing page right side content */
 			#landingpage-imagecontent{
 				height:43vw;
 				width:50vw;
 			}		
-					
+			
+			
 
+
+	/* download count segment	  */			
 	.downloadcount{
 		margin:0vw 5vw 5vw 5vw;
 		padding:5vw;		
-		font-size: 2vw;
 		border-radius: 0.5vw;
 		display: flex;
 		justify-content: space-around;
 		align-items:center;		
 		box-shadow: 0vw 0vw 3vw 0vw #0003;
-		font-family: "Einasemibold";
 	}
 		.downloadtext{
 			font-size: 1vw;
@@ -116,16 +120,20 @@
 		}
 
 	
+
+	/* opently marketplace text	 */
 	#marketplacetext{
-		font-size: 2vw;
 		font-weight: 900;
 		margin-top: 3vw 0vw 0vw 0vw;
 		color: rgb(45, 45, 45);
 		text-align: center;
-		font-family: "Einasemibold";
 		font-weight: 700;
 	}
 
+	
+
+	
+	/* Demo app pictures stylinsg */
 	#demoappcontainer{		
 		margin: 5vw 10vw 0 10vw;
 		display:flex;
@@ -151,8 +159,9 @@
 			}
 	
 
-	
-	
+
+			
+	/* user and business tiles		 */
 	#ubsection{
 		width:90vw;
 		height:28vw;
@@ -183,16 +192,14 @@
 			#user-section{
 				background-color: rgb(219, 214, 214);		
 			}
-
-				.ubsectionmaintext{
-					font-size: 2vw;
-					font-family: "Einasemibold";;
-				}
 				
 	}
 
 
 
+
+	
+	/* footer section */
 	footer{
 		height:88vw;
 		width:100vw;
@@ -200,6 +207,9 @@
 		padding: 5vw 10vw 5vw 10vw;
 		
 	}
+
+
+	/* first footer section */
 			.firstfootersection{
 				height:10vw;
 				width:80vw;
@@ -208,10 +218,7 @@
 				margin-bottom: 5vw;				
 			}
 
-			.firstfootersection-heading{
-				font-size: 2vw;
-				font-family: "Einasemibold";
-			}
+
 				#linkssection{
 					display:flex;
 					justify-content: space-evenly;
@@ -220,19 +227,19 @@
 					width:30vw;
 				}	
 					
+					#linkheading{
+						margin-bottom: 2vw;
+					}
+					
 					.links{
 						text-decoration: unset;
-						padding:0vw 0 1vw 0;
+						padding:1vw 1vw 1vw 0;
 						text-align: left;
 						font-size: 0.9vw;
 						line-height: 2.3vw;
 					}
 
-				.openlytext{
-					width:25vw;
-					font-size: 1vw;
-					padding: 1.5vw;
-				}	
+		
 
 				.fromplaystore{
 					height:4vw;
@@ -358,6 +365,4 @@
 				justify-content: space-between;
 			}
 
-			.footerheading{
-				font-size: 1.5vw;
-			}
+		

@@ -20,6 +20,30 @@
 	color: rgb(45,45,45);
 }
 
+
+
+
+/* heading */
+.heading2vwsemibold{
+	font-size: 2vw;
+	font-family: "Einasemibold";
+}
+
+.heading15vwsemibold{
+	font-size: 1.5vw;
+	font-family: "Einasemibold";
+}
+
+.heading1vwsemibold{
+	width:25vw;
+	font-size: 1vw;
+	padding: 1.5vw;
+	font-family:"Einasemibold";
+}	
+
+
+
+
 /* textcolor */
 .fadeblack{color:rgb(45,45,45);}
 .whitesmoke{color:whitesmoke;}

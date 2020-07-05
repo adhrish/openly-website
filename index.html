@@ -2,396 +2,438 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="index.css">
 	<link rel="stylesheet" href="global.css">
+
+	<link rel="stylesheet" href="index.css">
 	<title>Home Page</title>
 </head>
                                                                             
 <body onscroll="scrollheader()">
+	
+	
+	
+	
+	<!-- Header full container -->
+	<header  id="header" >
+		<img src="images\logowithtext.png" class = 'header-items' id= 'header-logo'>
+		<div class = 'header-items' id='header-spacing'> </div>
+		<a href="#" class = 'header-items' id='header-home'>Home</a>
+		<a href="#" class = 'header-items'>About</a>
+		<a href="#" class = 'header-items'>Contact</a>
+	</header>
 
-		<header  id="header" >
-			<img src="images\logowithtext.png" class = 'header-items' id= 'header-logo'>
-			<div class = 'header-items' id='header-spacing'> </div>
-			<a href="#" class = 'header-items' id='header-home'>Home</a>
-			<a href="#" class = 'header-items'>About</a>
-			<a href="#" class = 'header-items'>Contact</a>
-		</header>
 
-		<div class='landingpage'>
 
-			<div class='landing-element landingpage-textcontent'>
-				<div id='rotate-text'>
-					<h1><span class='static-text fadeblack'>Find</span> 
-						<span
-							class='text-animation fadeblack'
-							data-rotate='["Pet shop", "Electricians", "Pharmacies", "Cosmetic Shop", "Home Cooks", "Locksmiths", "Tailoring Services", "House maid", "Carpet cleaning"]'
-							data-time = '3000'
-						>
-						</span>&nbsp;<span class='static-text fadeblack'>around you</span><br/><span class='static-text fadeblack'>and</span>&nbsp;<span
-							class='text-animation fadeblack'
-							data-rotate='["buy pet food", "install your fan", "get medicines", "buy new cosmetics", "eat home made", "rescue you key", "get perfect alteration", "ease your choices", "leave it to the professionals"]'
-							data-time = '3000'
-						>
-						</span>
-					</h1>
-				</div>
 
-				<div id="infotext">
-					<span class='fadeblack'>Openly is a hyperlocal marketplace platform where you can find all sorts of businesses around you and buy products and services from them.</span>
-				</div>
+	<!-- Landing page -->
+	<div class='landingpage'>
+		
 
-				<div id='landingpage-clickcontent'>
-					<button  class= 'landing-clickcontent whitesmoke fadeblackbackground' id="downloadbutton">Download</button>
-					<div id='getintouch'>
-						<div class='landing-clickcontent'>
-							<img id='getintouchimage'src="images/index/vulcansalute.png" />
-							<span class="fadeblack"> get in touch with us</span>
-						</div>
+		<!-- Landing page left section -->
+		<div class='landing-element landingpage-textcontent'>
+
+			<!-- landing page roatating text -->
+			<div id='rotate-text'>
+				<h1><span class='heading15vwsemibold fadeblack'>Find</span> 
+					<span
+						class='text-animation fadeblack'
+						data-rotate='["Pet shop", "Electricians", "Pharmacies", "Cosmetic Shop", "Home Cooks", "Locksmiths", "Tailoring Services", "House maid", "Carpet cleaning"]'
+						data-time = '3000'>
+					</span>&nbsp;<span class='heading15vwsemibold fadeblack'>around you</span><br/><span class='heading15vwsemibold fadeblack'>and</span>&nbsp;<span
+						class='text-animation fadeblack'
+						data-rotate='["buy pet food", "install your fan", "get medicines", "buy new cosmetics", "eat home made", "rescue you key", "get perfect alteration", "ease your choices", "leave it to the professionals"]' 
+						data-time = '3000'>
+					</span>
+				</h1>
+			</div>
+
+			<!-- non rotating normal text -->
+			<div id="infotext">
+				<span class='fadeblack'>Openly is a hyperlocal marketplace platform where you can find all sorts of businesses around you and buy products and services from them.</span>
+			</div>
+
+			<!-- download button and click link -->
+			<div id='landingpage-clickcontent'>
+				<button  class= 'landing-clickcontent whitesmoke fadeblackbackground' id="downloadbutton">Download</button>
+				<div id='getintouch'>
+					<div class='landing-clickcontent'>
+						<img id='getintouchimage'src="images/index/vulcansalute.png" />
+						<span class="fadeblack"> get in touch with us</span>
 					</div>
 				</div>
 			</div>
 
-			<div class='landing-element'>
-					<img id="landingpage-imagecontent" src="images/iphonexhomepage.png"/>
-			</div>
-		</div>		
+		</div>
+
+
+		<!-- landingpage right side content -->
+		<div class='landing-element'>
+				<img id="landingpage-imagecontent" src="images/iphonexhomepage.png"/>
+		</div>
+	</div>		
+
+
+
+
+	<!-- download count segment	 -->
+	<div class ='downloadcount heading2vwsemibold whitesmoke fadeblackbackground'>
+		<div>1000+ <br><span class='downloadtext'>Downloads</span></div>
+		<div>5000+ <br><span class='downloadtext'>Order placed</span></div>
+		<div>$10l+ <br><span class='downloadtext'>Turnover</span></div>
+	</div>
+
+
+
+	
+	<!-- Open marketplacetext -->
+	<div class="heading2vwsemibold" id='marketplacetext'>Openly Marketplace</div>
+	
 	
 
-			
-		<div class ='downloadcount whitesmoke fadeblackbackground'>
-			<div>1000+ <br><span class='downloadtext'>Downloads</span></div>
-			<div>5000+ <br><span class='downloadtext'>Order placed</span></div>
-			<div>$10l+ <br><span class='downloadtext'>Turnover</span></div>
-		</div>
 
-		
-		
-		<div id='marketplacetext'>Openly Marketplace</div>
-			
-		
-		<div id='demoappcontainer'>
-			<div >
-				<img class= 'demoapp demosnap' id='demo1' src='images/square.png' alt=></img>
-				<p class='demoapp text'>Launch the Openly app and find your favourite store from around you</p>
-			</div>
-			<div>
-				<img class= 'demoapp demosnap' id='demo2' src='images/square.png'></img>
-				<p class='demoapp text'>Open the store to see their listed products and services</p>
-			</div>
-			<div>
-				<img class= 'demoapp demosnap' id='demo3' src='images/square.	png'></img>
-				<p class='demoapp text'>Browse for your items or services and place and order by paying online</p>
-			</div>
-			<div>
-				<img class= 'demoapp demosnap de' id='demo4' src='images/square.png'></img>
-				<p class='demoapp text'>The store owners sees your order and accepts it on their own app</p>
-			</div>
-			<div>
-				<img class= 'demoapp demosnap' id='demo5' src='images/square.png'></img>
-				<p class='demoapp text'>Finally! Services will be completed or your product will be delivered</p>
-			</div>			
+	<!-- Demoapp picture segment -->
+	<div id='demoappcontainer'>
+		<div >
+			<img class= 'demoapp demosnap' id='demo1' src='images/square.png' alt=></img>
+			<p class='demoapp text'>Launch the Openly app and find your favourite store from around you</p>
 		</div>
+		<div>
+			<img class= 'demoapp demosnap' id='demo2' src='images/square.png'></img>
+			<p class='demoapp text'>Open the store to see their listed products and services</p>
+		</div>
+		<div>
+			<img class= 'demoapp demosnap' id='demo3' src='images/square.	png'></img>
+			<p class='demoapp text'>Browse for your items or services and place and order by paying online</p>
+		</div>
+		<div>
+			<img class= 'demoapp demosnap de' id='demo4' src='images/square.png'></img>
+			<p class='demoapp text'>The store owners sees your order and accepts it on their own app</p>
+		</div>
+		<div>
+			<img class= 'demoapp demosnap' id='demo5' src='images/square.png'></img>
+			<p class='demoapp text'>Finally! Services will be completed or your product will be delivered</p>
+		</div>			
+	</div>
 
-		
-		
-		<div id='ubsection'>
-			<div  class='ubsectionelement' id='user-section'>
+
+
+
+	<!-- User business tiles section	 -->
+	<div id='ubsection'>
+		<div  class='ubsectionelement' id='user-section'>
+			<div>
+				<span class='heading2vwsemibold fadeblack' id="openlymarketplace">Openly Marketplace</span><br><br>
+				<span class='fadeblack'> Download Openly app to find stores near you.</span>
+			</div>
+			<div class='ubsectionelementimage'>
+				image1
+			</div>
+		</div>
+		<div  class='ubsectionelement fadeblackbackground' id="business-section">
+			<div>  
+				<span class='heading2vwsemibold whitesmoke' id="openlybusiness">Openly for Business</span><br><br>
+				<span class='whitesmoke'>List your store on Openly app and start taking orders.</span>
+			</div>
+			<div class='ubsectionelementimage'>
+				image 2
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- footer section -->
+	<footer class="fadeblackbackground">
+		<!-- container with all footer section -->
+		<div class="footercontainer">
+
+
+
+			<!-- first footer section -->
+			<div class="firstfootersection">
+
+				<!-- first footer section link section(left section) -->
+				<div id="linkssection">
+						<div id='linkheading'>
+							<span class=" whitesmoke heading2vwsemibold">Links</span>
+						</div>
+						<div  class= " whitesmoke">						
+							<a class="links whitesmoke" href="#">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="links whitesmoke" href="#">Openly Marketplace</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="links whitesmoke" href="#">Openly for business</a><br>
+							<a class="links whitesmoke" href="#">About us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="links whitesmoke" href="#">Contact us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="links whitesmoke" href="#">Downloads</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="links whitesmoke" href="#">Privacy Policy</a><br>
+							<a class="links whitesmoke" href="#">User Agreement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="links whitesmoke" href="#">Vendor Agreement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="links whitesmoke" href="#">Newsroom</a>
+					</div>
+				</div>
+				
+				<!-- first footer section download section(middle section) -->
+				<div id="downloadmarketplaceapp">
+					<div>
+						<span class="heading1vwsemibold  whitesmoke"id="downloadopenlymarketplaceapp">Openly Marketplace App</span>
+					</div>
+					<div class="fromplaystore heading1vwsemibold">
+						<a href='https://play.google.com/store/apps/details?id=com.openly.forconsumer&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="fromplaystore" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>						</div>
+					<div>
+						<span class="heading2vwsemibold heading1vwsemibold whitesmoke">download from appstore</span>
+					</div>
+				</div>
+			
+				<!-- first footer section download section(right section) -->
+				<div class="firstfootersection " id="downloadbusinessapp">
+					<div>
+						<span class="heading1vwsemibold whitesmoke">Openly for BusinessApp</span>
+					</div>
+					<div class='fromplaystore heading1vwsemibold'>
+						<a href='https://play.google.com/store/apps/details?id=com.openly.forbusiness&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="fromplaystore"  alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>						</div>
+					<div>
+						<span class="heading2vwsemibold heading1vwsemibold whitesmoke">download from appstore</span>
+				</div>
+
+				</div>
+			</div>		
+			
+
+
+			<!-- second footer section -->
+			<div class='secondfootersection fadeblackbackground'>
+
+					<!-- second footer left section -->
+					<div class="secondfootersections" id="sectionleft">
+						<div id="contactustext">
+							<span class="whitesmoke heading2vwsemibold ">Contact us</span>
+						</div>
+						<div>
+							<form action="">
+								<input class="footerforms whitesmoke type="text" placeholder="Message" ><Span></Span>
+							</form>
+						</div>
+						<div>
+							<form action="">
+								<input class="footerforms whitesmoke" type="text" placeholder="Email or Phone number" ><Span></Span>
+							</form>
+						</div>							
+						<div>
+							<input type="radio" class= "radiobutton">
+							<label class="whitesmoke"><span class="whitesmoke">I want to list my store</span></label><br>
+				
+							<input type="radio" class= "radiobutton">
+							<label class="whitesmoke">Others</label>
+						</div>
+						<div>
+							<button class="footerbutton"><span>Send</span></button>
+						</div>  
+						
+					</div>
+					
+					<!-- second footer right section -->
+					<div class = "secondfootersections" id='sectionright'>
+						<div>
+							<div>
+								<span class="whitesmoke heading2vwsemibold " id="followopenlytext">Follow Openly</span>
+							</div>
+							<div id="footersociallinkscontainer">
+								<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/icons/instagram.svg"></div></a>
+								<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/icons/facebook.svg"></div></a>
+								<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/icons/linkedin.svg"></div></a>
+								<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/icons/twitter.svg"></div></a>
+							</div>
+						</div>
+						<div id='gethelpdiv'>
+							<div>
+								<span class="whitesmoke heading2vwsemibold " id="gethelptext">Get help instantly</span>
+							</div>
+							<div>
+								<button class="footerbutton" id="whatsapp">
+									<span class="whitesmoke">WhatsApp</span>
+								</button>
+							</div>
+						</div>
+					</div>
+			</div>
+
+
+
+			<!-- third footer section -->
+			<div id="thirdfootersection">
+
+				<!-- third footer section heading -->
+				<div class="heading2vwsemibold whitesmoke">
+					<span id="currentlytext">Currently supported category</span>
+				</div>
+
+				<!-- third footer content -->
+				<div class="columns">
+					<div class="whitesmoke">
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>							
+					</div>
+					<div class="whitesmoke">
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>							
+					</div>
+					<div class="whitesmoke">
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>							
+					</div>
+					<div class="whitesmoke">
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>							
+					</div>
+					<div class="whitesmoke">
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+						<li>Daily Essential</li>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<!-- fourth footer section -->
+			<div class='whitesmoke'id="fourthfootersection">
 				<div>
-					<span class='ubsectionmaintext fadeblack' id="openlymarketplace">Openly Marketplace</span><br><br>
-					<span class='fadeblack'> Download Openly app to find stores near you.</span>
+					<span>2020 Keitai Technologies Private Limited</span>
 				</div>
-				<div class='ubsectionelementimage'>
-					image1
-				</div>
-			</div>
-			<div  class='ubsectionelement fadeblackbackground' id="business-section">
-				<div>  
-					<span class='ubsectionmaintext whitesmoke' id="openlybusiness">Openly for Business</span><br><br>
-					<span class='whitesmoke'>List your store on Openly app and start taking orders.</span>
-				</div>
-				<div class='ubsectionelementimage'>
-					image 2
+				<div>
+					<span>All rights reserved.</span>
 				</div>
 			</div>
+
 		</div>
-
-
-		
-
+	</footer>
 
 
 
-		<footer class="fadeblackbackground">
-			<div class="footercontainer">
-				<div class="firstfootersection">
-					<div class="firstfootersection " id="linkssection">
-							<span class=" whitesmoke footerheading firstfootersection-heading">Links</span>
-							<div  class= " whitesmoke" id="linkdiv">						
-								<a class="links whitesmoke" href="#">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a class="links whitesmoke" href="#">Openly Marketplace</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a class="links whitesmoke" href="#">Openly for business</a><br>
-								<a class="links whitesmoke" href="#">About us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a class="links whitesmoke" href="#">Contact us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a class="links whitesmoke" href="#">Downloads</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a class="links whitesmoke" href="#">Privacy Policy</a><br>
-								<a class="links whitesmoke" href="#">User Agreement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a class="links whitesmoke" href="#">Vendor Agreement</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								<a class="links whitesmoke" href="#">Newsroom</a>
-						</div>
-					</div>
-					
-					
-					<div class="firstfootersection" id="downloadmarketplaceapp">
-						<div>
-							<span class="firstfootersection-heading footerheading openlytext whitesmoke"id="downloadopenlymarketplaceapp">Openly Marketplace App</span>
-						</div>
-						<div class="fromplaystore openlytext">
-							<a href='https://play.google.com/store/apps/details?id=com.openly.forconsumer&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="fromplaystore" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>						</div>
-						<div>
-							<span class="firstfootersection-heading openlytext whitesmoke">download from appstore</span>
-						</div>
-					</div>
-					
+	<!-- all scripts here -->
+	<script src='index.js'></script>
+	<script src="wordAnime.js"></script>
 
-
-					<div class="firstfootersection " id="downloadbusinessapp">
-						<div>
-							<span class="firstfootersection-heading footerheading openlytext whitesmoke">Openly for BusinessApp</span>
-						</div>
-						<div class='fromplaystore openlytext'>
-							<a href='https://play.google.com/store/apps/details?id=com.openly.forbusiness&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img class="fromplaystore"  alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>						</div>
-						<div>
-							<span class="firstfootersection-heading openlytext whitesmoke">download from appstore</span>
-					</div>
-
-					</div>
-				</div>		
-				
-				<div class='secondfootersection fadeblackbackground'>
-						<div class="secondfootersections" id="sectionleft">
-							<div id="contactustext">
-								<span class="whitesmoke firstfootersection-heading footerheading">Contact us</span>
-							</div>
-							<div>
-								<form action="">
-									<input class="footerforms whitesmoke type="text" placeholder="Message" ><Span></Span>
-								</form>
-							</div>
-							<div>
-								<form action="">
-									<input class="footerforms whitesmoke" type="text" placeholder="Email or Phone number" ><Span></Span>
-								</form>
-							</div>							
-							<div>
-								<input type="radio" class= "radiobutton">
-								<label class="whitesmoke"><span class="whitesmoke">I want to list my store</span></label><br>
-					
-								<input type="radio" class= "radiobutton">
-								<label class="whitesmoke">Others</label>
-							</div>
-							<div>
-								<button class="footerbutton"><span>Send</span></button>
-							</div>  
-							
-						</div>
-						
-						
-						
-						
-						<div class = "secondfootersections" id='sectionright'>
-							<div>
-								<div>
-									<span class="whitesmoke firstfootersection-heading footerheading" id="followopenlytext">Follow Openly</span>
-								</div>
-								<div id="footersociallinkscontainer">
-									<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/icons/instagram.svg"></div></a>
-									<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/icons/facebook.svg"></div></a>
-									<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/icons/linkedin.svg"></div></a>
-									<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/icons/twitter.svg"></div></a>
-								</div>
-							</div>
-							<div id='gethelpdiv'>
-								<div>
-									<span class="whitesmoke firstfootersection-heading footerheading" id="gethelptext">Get help instantly</span>
-								</div>
-								<div>
-									<button class="footerbutton" id="whatsapp">
-										<span class="whitesmoke">WhatsApp</span>
-									</button>
-								</div>
-							</div>
-						</div>
-				</div>
-				
-				<div id="thirdfootersection">
-					<div class="firstfootersection-heading whitesmoke">
-						<span class="footerheading" id="currentlytext">Currently supported category</span>
-					</div>
-					<div class="columns">
-						<div class="whitesmoke">
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>							
-						</div>
-						<div class="whitesmoke">
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>							
-						</div>
-						<div class="whitesmoke">
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>							
-						</div>
-						<div class="whitesmoke">
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>							
-						</div>
-						<div class="whitesmoke">
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-							<li>Daily Essential</li>
-						</div>
-					</div>
-				</div>
-				<div class='whitesmoke'id="fourthfootersection">
-					<div>
-						<span>2020 Keitai Technologies Private Limited</span>
-					</div>
-					<div>
-						<span>All rights reserved.</span>
-					</div>
-				</div>
-
-
-
-
-			</div>
-		</footer>
-
-
-
-		
-
-		<script src='index.js'></script>
-		<script src="wordAnime.js"></script>
-
-	</body>
+</body>
 
 </html>
