@@ -201,21 +201,18 @@
 	
 	/* footer section */
 	footer{
-		height:88vw;
-		width:100vw;
-		box-sizing: border-box;
-		padding: 5vw 10vw 5vw 10vw;
-		
+		height:102vw;
+		width:100vw;	
 	}
 
 
 	/* first footer section */
 			.firstfootersection{
-				height:10vw;
-				width:80vw;
+				box-sizing: border-box;
+				padding: 5vw 10vw 5vw 10vw;
+				height:20vw;
 				display:flex;
 				border-bottom: grey;
-				margin-bottom: 5vw;				
 			}
 
 
@@ -224,7 +221,7 @@
 					justify-content: space-evenly;
 					flex-flow:column;
 					height:10vw;
-					width:30vw;
+					width:40vw;
 				}	
 					
 					#linkheading{
@@ -246,7 +243,7 @@
 					width:10vw;
 				}
 				#downloadmarketplaceapp{
-					width: 25vw;
+					width: 20vw;
 					height:10vw;
 					flex-flow: column
 				}
@@ -258,15 +255,16 @@
 				}
 
 					
-			.secondfootersection{		
+			.secondfootersection{	
+				box-sizing: border-box;	
+				padding: 5vw 10vw 5vw 10vw;
+
 				border-top: 2px grey solid;
-				height: 20vw;
-				width:80vw;
+				height: 30vw;
 				display:flex;
 			}	
 
 				#sectionleft{
-					padding:0 0 0 0;
 					width:40vw;
 					display:flex;
 					flex-flow: column;
@@ -343,22 +341,23 @@
 			
 
 			#thirdfootersection{
-				margin: 5vw 0 0 0;
+				box-sizing: border-box;
+				padding: 5vw 10vw 5vw 10vw;
 				border-top: 2px grey solid;
 				border-bottom: 2px grey solid;
-				height:40vw;
+				height:50vw;
 			}
 
 				.columns{
-					padding:0;
+					padding:2vw 0 0 0;
 					display:flex;
 					justify-content: space-between;
 				}
 			
 			#fourthfootersection{
+				box-sizing: border-box;
+				padding: 0vw 10vw 0vw 10vw;
 				height:2vw;
-				width:80vw;
-				padding:0;
 				margin:0;
 				font-size: 0.8vw;
 				display: flex;
