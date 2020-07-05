@@ -218,10 +218,11 @@
 
 				#linkssection{
 					display:flex;
-					justify-content: space-evenly;
+					justify-content: space-between;
 					flex-flow:column;
 					height:10vw;
 					width:40vw;
+					margin-right: 2vw;
 				}	
 					
 					#linkheading{
@@ -237,28 +238,38 @@
 					}
 
 		
-
 				.fromplaystore{
 					height:4vw;
 					width:10vw;
-				}
-				#downloadmarketplaceapp{
-					width: 20vw;
-					height:10vw;
-					flex-flow: column
+					padding: 0;	
+					border: 0;
+					margin:2vw 2vw 2vw 0;
+									
 				}
 
+
+
+
+				/* first footer middle section */
+
+				#downloadmarketplaceapp{
+					padding-left: 2vw;
+					width: 20vw;
+					height:10vw;
+					flex-flow: column;
+				}
+
+				/* first footer right section  */
 				#downloadbusinessapp{
 					width:25vw;
 					height:10vw;
 					flex-flow: column;
 				}
 
-					
+			/* second footer section */
 			.secondfootersection{	
 				box-sizing: border-box;	
 				padding: 5vw 10vw 5vw 10vw;
-
 				border-top: 2px grey solid;
 				height: 30vw;
 				display:flex;
@@ -271,7 +282,6 @@
 					justify-content: space-between;
 				}
 				
-
 					.footerforms{
 						border:0;
 						border-radius: 0.2vw;
@@ -293,7 +303,7 @@
 						font-family: "Einasemibold";
 					}
 						#whatsapp{
-							background-color: rgb(79, 233, 49);
+							background-color: rgb(85, 206, 95);
 						}
 
 					.radiobutton{
@@ -323,7 +333,7 @@
 
 					#footersociallinkscontainer
 					{	
-						margin:1.5vw 0 0 0;
+						margin:1.5vw 0 0 .15vw;
 						height: 1vw;
 					}
 					.footersociallinks
