@@ -390,8 +390,394 @@
 			}
 
 
-			#innsta:hover{
-				background-color: rgb(219, 141, 154);
-				overflow:hidden;
+
+/* for mobile */
+@media (max-aspect-ratio:1/1){
+
+
+	/* header */
+	header{
+		display: flex;	
+		align-items: center;
+		padding-right: 10vw;
+		padding-left:10vw;
+		box-sizing:border-box;
+		transition-duration: 0.3s;
+	}
+
+
+		.header-items{
+			margin-left:5vw;
+			padding:0.8vw;
+			padding-top: 0.5vw;
+			padding-bottom: 0.5vw;
+			text-decoration: none;
+			color:rgb(35,35,35);
+			font-size: 0.9vw;
+			font-family: "Einasemibold";
+			display:flex;
+			align-items: center;
+
+		}
+			#logocontent{
+				margin-left:0;
+				transition-duration: 0.3s;
 			}
+
+			#logotextopenly{
+				text-decoration: none;
+				margin: 0 0 0 0.4vw;
+				font-family: "Einasemibold";
+				transition-duration: 0.3s;
+			}
+
+			#header-logo{
+				margin:0;
+				padding:0;
+				height: 2.7vw;
+				transition-duration: 0.3s;
+			}
+
+			#header-spacing{
+				flex-grow: 1;
+			}
+
+
+
+
+	/* landingpage styling		 */
+	.landingpage{
+		height:43vw;
+		width:90vw;
+		margin: 8vw 5vw 0vw 10vw;
+		display:flex;
+	}
+
+		/* landing page left side styling  */
+		.landing-element{
+			display: flex;
+			justify-content: center;
+			flex-flow: column;
+		}
+
+			#landingpage-textcontent{
+				width:35vw;
+			}
+
+					.text-animation{
+						font-size: 2vw;
+						font-family: 'Einasemibold';
+					}
+
+
+
+				#landingpage-clickcontent{
+					display:flex;
+					justify-content: space-around;
+					align-items: center;
+				}
+
+					#downloadbutton{
+						border:none;
+						margin-top: 4vw;
+						height: 3vw;
+						width: 10vw;
+						font-family: "Einasemibold";
+						font-size: 1vw;
+						border-radius: 0.2vw;
+						box-shadow: 0vw 0vw 3vw 0vw #0003;
+					}
+
+					#getintouch{
+						display:flex;
+						justify-content: center;
+						text-align: end;
+						margin-top: 4vw;
+						height: 1vw;
+						width: 15vw;
+					}
+
+						#getintouchimage{
+							height: 1vw;
+							width:1vw;
+						}
 		
+		/* landing page right side content */
+			#landingpage-imagecontent{
+				height:43vw;
+				width:50vw;
+			}		
+			
+			
+
+
+	/* download count segment	  */			
+	.downloadcount{
+		margin:0vw 5vw 5vw 5vw;
+		padding:5vw;		
+		border-radius: 0.5vw;
+		display: flex;
+		justify-content: space-around;
+		align-items:center;		
+		box-shadow: 0vw 0vw 3vw 0vw #0003;
+	}
+		.downloadtext{
+			font-size: 1vw;
+			font-family: "Einasemibold";
+		}
+
+	
+
+	/* opently marketplace text	 */
+	#marketplacetext{
+		font-weight: 900;
+		margin-top: 3vw 0vw 0vw 0vw;
+		color: rgb(45, 45, 45);
+		text-align: center;
+		font-weight: 700;
+	}
+
+	
+
+	
+	/* Demo app pictures stylinsg */
+	#demoappcontainer{		
+		margin: 5vw 10vw 0 10vw;
+		display:flex;
+		justify-content: space-between;
+		text-align: center;
+	}
+	
+		.demoapp {
+			height:12.5vw;
+			width:12.5vw;
+			border-radius: 0.5vw;
+		}
+
+		.demosnap{
+			box-shadow: 0vw 0vw 3vw 0vw #0003;
+
+		}
+
+
+			.text{
+				font-size: 0.9vw;
+				height:3.5vw;
+			}
+	
+
+
+			
+	/* user and business tiles		 */
+	#ubsection{
+		width:90vw;
+		height:28vw;
+		margin:10vw 5vw 5vw 5vw;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.ubsectionelement{
+		height:28vw;
+		width:42.5vw;
+		margin:0;
+		padding: 4vw 0 0 0 ;
+		border-radius: 0.5vw;
+		text-align: center;
+		box-sizing: border-box;
+		box-shadow: 0vw 0vw 3vw 0vw #0003;
+		}
+
+			.ubsectionelementimage{
+				margin: 2vw 10vw 2vw 10vw;
+				background-color: rgb(56, 95, 69);
+				height: 16vw;
+				width: 22.5vw;
+			}
+
+
+			#user-section{
+				background-color: rgb(219, 214, 214);		
+			}
+				
+	}
+
+
+
+
+	
+	/* footer section */
+	footer{
+		height:102vw;
+		width:100vw;	
+	}
+
+
+	/* first footer section */
+			.firstfootersection{
+				box-sizing: border-box;
+				padding: 5vw 10vw 5vw 10vw;
+				height:20vw;
+				display:flex;
+				border-bottom: grey;
+			}
+
+
+				#linkssection{
+					display:flex;
+					justify-content: space-between;
+					flex-flow:column;
+					height:10vw;
+					width:40vw;
+					margin-right: 2vw;
+				}	
+					
+					#linkheading{
+						margin-bottom: 2vw;
+					}
+					
+					.links{
+						text-decoration: unset;
+						padding:1vw 1vw 1vw 0;
+						text-align: left;
+						font-size: 0.9vw;
+						line-height: 2.3vw;
+					}
+
+		
+				.fromplaystore{
+					height:4vw;
+					width:10vw;
+					padding: 0;	
+					border: 0;
+					margin:2vw 2vw 2vw 0;
+									
+				}
+
+
+
+
+				/* first footer middle section */
+
+				#downloadmarketplaceapp{
+					padding-left: 2vw;
+					width: 20vw;
+					height:10vw;
+					flex-flow: column;
+				}
+
+				/* first footer right section  */
+				#downloadbusinessapp{
+					width:25vw;
+					height:10vw;
+					flex-flow: column;
+				}
+
+			/* second footer section */
+			.secondfootersection{	
+				box-sizing: border-box;	
+				padding: 5vw 10vw 5vw 10vw;
+				border-top: 2px grey solid;
+				height: 30vw;
+				display:flex;
+			}	
+
+				#sectionleft{
+					width:40vw;
+					display:flex;
+					flex-flow: column;
+					justify-content: space-between;
+				}
+				
+					.footerforms{
+						border:0;
+						border-radius: 0.2vw;
+						background-color: rgb(151, 154, 155);
+						text-decoration: unset;
+						height:2.5vw;
+						font-size: 1vw;
+						width: 30vw;
+						text-decoration-color: whitesmoke;
+					}
+
+					.footerbutton{
+						height:2.5vw;
+						width:8vw;
+						border: 0;
+						font:1vw;
+						border-radius:0.2vw;
+						align-self: center;
+						font-family: "Einasemibold";
+					}
+						#whatsapp{
+							background-color: rgb(85, 206, 95);
+						}
+
+					.radiobutton{
+						text-decoration: rgb(45, 45, 45);
+						border:0;
+					}
+
+				#sectionright{
+					width:40vw;
+					display:flex;
+					flex-flow: column;
+					justify-content: space-between;
+				}
+
+					#followopenlytext{
+						margin:0;
+					}
+
+					#gethelpdiv{
+						padding-bottom: 4vw;
+					}
+
+						#whatsapp{
+							font-size: 1vw;
+							margin-top: 1.5vw;
+						}
+
+					#footersociallinkscontainer
+					{	
+						margin:1.5vw 0 0 .15vw;
+						height: 1vw;
+					}
+					.footersociallinks
+							{
+								display: inline-block;
+								height: 1.7vw;
+								margin-right: 2vw;
+							}
+
+							.footerlinksimage
+							{	
+								
+								height: 100%;
+							}
+			
+
+			#thirdfootersection{
+				box-sizing: border-box;
+				padding: 5vw 10vw 5vw 10vw;
+				border-top: 2px grey solid;
+				border-bottom: 2px grey solid;
+				height:50vw;
+			}
+
+				.columns{
+					padding:2vw 0 0 0;
+					display:flex;
+					justify-content: space-between;
+				}
+			
+			#fourthfootersection{
+				box-sizing: border-box;
+				padding: 0vw 10vw 0vw 10vw;
+				height:2vw;
+				margin:0;
+				font-size: 0.8vw;
+				display: flex;
+				justify-content: space-between;
+			}
+}
