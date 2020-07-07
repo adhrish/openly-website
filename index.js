@@ -1,9 +1,6 @@
 
 
-
-
-
-function scrollheader(){
+function scrollHeader() {
 		if(document.body.scrollTop <= 40){
 		document.getElementById("logotextopenly").style.fontSize= "1.8vw";
 		document.getElementById("header").style.height = "8vw";
@@ -18,5 +15,4 @@ function scrollheader(){
 			
 		}
 }	
-
 
