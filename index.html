@@ -8,11 +8,7 @@
 	<title>Document</title>
 </head>
                                                                                           
-<body onscroll="scrollHeader()">
-	
-	
-	
-	
+<body>	
 	<!-- Header full container -->
 	<header  id="header" >
 		<div class="header-items" id="logocontent">
@@ -79,21 +75,13 @@
 
 
 	<!-- download count segment	 -->
-	<div class ='downloadcount  whitesmoke fadeblackbackground'>
+	<div class ='downloadcount  whitesmoke fadeblackbackground' id="downloadcounter" > 
 		<div class= 'container'>
 			<div class="jackpot" id="userpot">
-					<div class="singlepot">
-						<span>1</span>
+					<div class="singlepot" onscroll=>
+						<span id="userpotnum" animated=false>1105</span>
 					</div>
-					<div class="singlepot">
-						<span>0</span>
-					</div>
-					<div class="singlepot">
-						<span>0</span>
-					</div>
-					<div class="singlepot">
-						<span>0</span>
-					</div>
+				
 			</div>
 			<div>
 				<span  class='downloadtext'>User downloads</span>
@@ -102,16 +90,7 @@
 		<div class= 'container'>
 			<div class="jackpot" id="vendorpot">
 					<div class="singlepot">
-						<span>1</span>
-					</div>
-					<div class="singlepot">
-						<span>0</span>
-					</div>
-					<div class="singlepot">
-						<span>0</span>
-					</div>
-					<div class="singlepot">
-						<span>0</span>
+						<span id="vendorpotnum" animated='false'>926</span>
 					</div>
 			</div>
 			<div>
@@ -122,20 +101,12 @@
 		<div class= 'container' id="orderpot">
 			<div class="jackpot">
 					<div class="singlepot">
-						<span>1</span>
+						<span id=orderpotnum animated='false'>2354</span>
 					</div>
-					<div class="singlepot">
-						<span>0</span>
-					</div>
-					<div class="singlepot">
-						<span>0</span>
-					</div>
-					<div class="singlepot">
-						<span>0</span>
-					</div>
+					
 			</div>
 			<div>
-				<span  class='downloadtext'>Orders placed</span>
+				<span  class='downloadtext' id="orderpottext">Orders placed</span>
 			</div>
 		</div>		
 	</div>
