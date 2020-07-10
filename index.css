@@ -81,7 +81,7 @@
 
 				#landingpage-clickcontent{
 					display:flex;
-					justify-content: space-around;
+					/* justify-content: space-around; */
 					align-items: center;
 				}
 
@@ -100,7 +100,7 @@
 						display:flex;
 						justify-content: center;
 						text-align: end;
-						margin-top: 4vw;
+						margin: 4vw 0 0 5vw;
 						height: 1vw;
 						width: 15vw;
 					}
@@ -153,7 +153,6 @@
 					text-align: center;
 					background-color: whitesmoke;
 					color: rgb(35, 35, 35);
-					transition: all 5s ease-in-out ;	
 				}
 
 				#orderpottext{
@@ -524,6 +523,7 @@
 						margin-top: 4vw;
 						height: 1vw;
 						width: 15vw;
+						text-decoration: none;
 					}
 
 						#getintouchimage{
