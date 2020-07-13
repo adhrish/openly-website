@@ -1,12 +1,5 @@
 /* for desktop */
 @media (min-aspect-ratio:1/1){
-
-
-
-	/* header */
-	
-
-
 	/* landingpage styling		 */
 	.landingpage{
 		height:43vw;
@@ -35,7 +28,7 @@
 
 				#landingpage-clickcontent{
 					display:flex;
-					/* justify-content: space-around; */
+					
 					align-items: center;
 				}
 
@@ -51,15 +44,20 @@
 					}
 
 					#getintouch{
+						text-decoration: none;
 						display:flex;
 						justify-content: center;
 						text-align: end;
 						margin: 4vw 0 0 5vw;
-						height: 1vw;
+						height: 2vw;
 						width: 15vw;
 					}
 
-						#getintouchimage{
+					#getintouch a{
+						text-decoration: none;
+					}
+
+						#getintouchimage{							
 							height: 1vw;
 							width:1vw;
 						}
@@ -217,13 +215,14 @@
 					display:flex;
 					justify-content: space-between;
 					flex-flow:column;
-					height:10vw;
+					height:9vw;
 					width:40vw;
 					margin-right: 2vw;
 				}	
 					
 					#linkheading{
 						margin-bottom: 2vw;
+						line-height: 2vw;
 					}
 					
 					.links{
@@ -237,11 +236,10 @@
 		
 				.fromplaystore{
 					height:4vw;
-					width:10vw;
+					width:8.5vw;
 					padding: 0;	
 					border: 0;
-					margin:2vw 2vw 2vw 0;
-									
+					margin:1vw 2vw 1vw 0;									
 				}
 
 
@@ -250,17 +248,25 @@
 				/* first footer middle section */
 
 				#downloadmarketplaceapp{
-					padding-left: 2vw;
+					line-height: 3vw;
 					width: 20vw;
-					height:10vw;
-					flex-flow: column;
+					height:9vw;
+					flex-flow: column;					
+					align-self: baseline;
+				}
+
+				.downloadmarketplaceapp a{
+					margin:0;
+					padding:0;
 				}
 
 				/* first footer right section  */
 				#downloadbusinessapp{
+					line-height: 3vw;
 					width:25vw;
-					height:10vw;
-					flex-flow: column;
+					height:vw;
+					flex-flow: column;					
+					align-self: baseline;
 				}
 
 			/* second footer section */
@@ -288,6 +294,10 @@
 						font-size: 1vw;
 						width: 30vw;
 						text-decoration-color: whitesmoke;
+					}
+
+					input[placeholder] {
+						padding-left: 2vw;
 					}
 
 					.footerbutton{
@@ -532,7 +542,7 @@
 				background-color: rgb(219, 214, 214);		
 			}
 				
-	}
+	
 
 
 
@@ -575,17 +585,6 @@
 						font-size: 0.9vw;
 						line-height: 2.3vw;
 					}
-
-		
-				.fromplaystore{
-					height:4vw;
-					width:10vw;
-					padding: 0;	
-					border: 0;
-					margin:2vw 2vw 2vw 0;
-									
-				}
-
 
 
 
@@ -706,10 +705,11 @@
 			#fourthfootersection{
 				box-sizing: border-box;
 				padding: 0vw 10vw 0vw 10vw;
-				height:2vw;
+				line-height:2vw;
+	
 				margin:0;
 				font-size: 0.8vw;
 				display: flex;
 				justify-content: space-between;
 			}
-}
+}	
