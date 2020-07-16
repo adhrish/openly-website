@@ -1,5 +1,4 @@
 function scrollHeader() {
-	console.log("bro");
 	if(document.body.scrollTop <= 40){
 	document.getElementById("header").style.height = "8vw";
 	document.getElementById("header").style.boxShadow="none";

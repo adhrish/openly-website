@@ -374,12 +374,14 @@
 			#fourthfootersection{
 				box-sizing: border-box;
 				padding: 0vw 10vw 0vw 10vw;
-				height:2vw;
+				line-height:2vw;
 				margin:0;
 				font-size: 0.8vw;
 				display: flex;
 				justify-content: space-between;
+				
 			}
+
 
 
 

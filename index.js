@@ -47,15 +47,6 @@ function getDownloadCount() {
 	const options = {
 		method: 'get',
 	};
-	// cordova.plugin.http.sendRequest(APIURL+'/api/0OnapDD7qF4ULklkfQLJDGnqAKlbHqD2mMuNwVoOuCz7sRLunX/get_stats', options,
-	// function(response){
-	// 	localStorage.setItem('downloadCounts', response.data);
-	// },
-	// function(response) {
-	// 	console.log(response)
-	// 	toggleapierroralert("couldn't get your details")
-	// 	end_loading()
-	// });
 
 	fetch('https://openly-test-heroku.herokuapp.com/api/0OnapDD7qF4ULklkfQLJDGnqAKlbHqD2mMuNwVoOuCz7sRLunX/get_stats')
 	.then(function(response) {
