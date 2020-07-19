@@ -64,7 +64,8 @@ body{
 		position: fixed;
 		z-index: 10;
 		top: 0;
-		height: 3.5vw;
+
+		/* removed height = 3.5vw */
 		width:100vw;
 		background-color: #fff;
 		box-shadow: 0vw 0vw 3vw 0vw #0002;
