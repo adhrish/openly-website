@@ -5,7 +5,7 @@ function scrollHeader() {
 	document.getElementById("header").style.boxShadow="none";
 	document.getElementById("header-logo").style.height="5vw";
 	}
-	else if (document.body.scrollTop >40){
+	else{
 
 		console.log("bro1");
 		document.getElementById("header").style.height = "3.5vw";
