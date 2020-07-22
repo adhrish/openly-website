@@ -29,143 +29,95 @@ body{
 			width:90vw;
 		}
 
-
-
-	#middlesection {
-		border-radius: 0.5vw 0.5vw 0 0;
-		height:75vw;
+	
+	.middle-section {
 		margin: 5vw 5vw 0 5vw;
-		display:flex;
-		flex-flow: column wrap;
+		height: 75vw;
+		width: 90vw;
+		display: flex;
 		justify-content: space-between;
-		justify-items: space;
-	}	
+	}
 
-		#middlesection .middletile {
-			border-radius: 0.5vw 0.5vw 0 0;
-			height: 28vw;
-			width:42.5vw;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			box-shadow: 0vw 0vw 0.5vw 0vw #0003;
-
-
-		}
-
-		#middlesection #textdiv{ 
-			position: absolute;
-			height: 18vw;
-			width: 22.5vw;
+		.middle-section .columns{
+			height: 75vw;
+			width: 42.5vw;
 			display: flex;
 			flex-direction: column;
-			z-index: 1;
+			justify-content: space-between;
 		}
 
-		#textdiv #text-div-heading {
-			text-align: center;
-			width: 100%;
-			line-height: 1.8vw;
-			height: 40%;
-			padding-left: 1vw;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-
-			#middlesection #textdiv #list{
-				width: 100%;
-				height: 60%;
-				display:flex;
-				padding-left: 3vw;
-				justify-content: space-evenly;				
+			.columns .small-tile {
+				height: 28vw;
+				width: 42.5vw;
+				position: relative;
+				overflow: hidden;
+				box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+				border-radius: 0.5vw 0.5vw 0 0;
 			}
 
-				#middlesection #textdiv #list .listdiv {
-					line-height: 2vw;
-					height:14vw;
-					width:9vw;
-					padding: 0;
-					margin: 0;
+				.small-tile .image {
+					position: absolute;
+					top:50%;
+					height: 50%;
+					width: 100%;
+					background-image: url("./images/tileimage.png");
 				}
-			#imagecontainer {
-				width: 100%;
-				height: 100%;
-			}
+			
+				.small-tile .text {
+					position: absolute; 
+					top:5vw;
+					left:10vw;
+					height: auto;
+					width:22.5vw;
+					display:flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					z-index: 1;
+				}	
+
+				.small-tile .list {
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+				}
 
 
-			#imagecontainer .image {
-				height: 50%;
-				width: 100%;
+			.columns .big-tile {
+				height: 42vw;
+				width: 42.5vw;
 				position: relative;
-				top: 50%;
-				background-image: url('./images/tileimage.png');
-				background-position: center;
-				background-size: cover;
+				overflow: hidden;
+				box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+				border-radius: 0.5vw 0.5vw 0 0;
 			}
 
-			#services #imagecontainer .image {
-				height: 67%;
-				width: 100%;
-				position: relative;
-				top: 33%;
-				background-image: url('./images/tileimage.png');
-				background-position: center;
-				background-size: cover;
-			}
+				.big-tile .text {
+					position: absolute; 
+					top:5vw;
+					left:10vw;
+					height: auto;
+					width:22.5vw;
+					display:flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					z-index: 1;
+				}	
 
-			#shopping #imagecontainer .image {
-				height: 67%;
-				width: 100%;
-				position: relative;
-				top: 33%;
-				background-image: url('./images/tileimage.png');
-				background-position: center;
-				background-size: cover;
-			}
-			#services #textdiv{ 
-				position: absolute;
-				height: 18vw;
-				width: 22.5vw;
-				top:200%;
-				display: flex;
-				flex-direction: column;
-				z-index: 1;
-			}
+					.big-tile .list {
+						display: flex;
+						justify-content: flex-start;
+						align-items: center;
+					}
 
-			#shopping #textdiv{ 
-				position: absolute;
-				height: 18vw;
-				width: 22.5vw;
-				top:129%;
-				display: flex;
-				flex-direction: column;
-				z-index: 1;
-			}
-
-
-
-
-		.middletile .tile1text {
-			height:16vw;
-		}
-		.middletile .imagecontainer {
-			height:5vw;
-			width: 5vw;
-		}
-
-		#middlesection #services{
-			height:42vw;
-		}
-
-		#middlesection #shopping {
-			height:42vw;
-		}
-
-		#shopping,#andmore {
-			margin-left: 5vw;
-		}
-
+				.big-tile .image {
+					position: absolute;
+					top:33%;
+					height: 67%;
+					width: 100%;
+					background-image: url("./images/tileimage.png");
+				}
 		
 
 
