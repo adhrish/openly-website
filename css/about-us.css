@@ -1,0 +1,199 @@
+body::-webkit-scrollbar{display: none}
+*{
+	margin: 0 ;
+	padding: 0;
+}
+
+/*for desktop*/
+@media (min-aspect-ratio: 1/1){
+body{
+	height:150vw;
+	box-sizing: border-box;
+	overflow: scroll;
+}
+#landingcontainer {
+	background-image:url("../images/about-us/landingimage.png");
+	margin:8vw 0 0 0;
+	height: 42vw;
+	width: 100vw;
+	text-align: center;
+	box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+
+}
+
+	#landingcontainer #landingheadingtext {
+		padding-top:5vw;
+	}
+
+	#landingcontainer #landingsubheadingtext{
+		margin-top:2vw;
+    }
+
+    #vision{
+        height:20vw;
+        width:90vw;
+        margin: 5vw 5vw 0 5vw;
+        border-radius: 0.5vw;
+        box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }    
+
+        #vision #heading{
+            height: 8vw;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        #vision #text-container {
+            height: 10vw;
+            width: 100%;
+        }
+
+        #text-container #text {
+            height: 7vw;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+    
+    .tile-container {
+        height: 28vw;
+        width: 90vw;
+        border-radius: 0.5vw;
+        margin: 5vw 5vw 0 5vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .tile-container .tile {
+            height:28vw;
+            width:42.5vw;
+            border-radius: 0.5vw;
+            box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+        }
+
+            .tile-container .tile .heading-container {
+                height: 7vw;
+                width:100%;
+                margin: 0 0 2vw 0;
+            }
+
+                .tile-container .tile .heading-container .heading{
+                    height:100%;
+                    width:100%;
+                    margin: 5vw 0 0 0;
+                    display: flex;
+                    justify-content: center;
+                }
+
+
+            .tile-container .tile .text-container {
+                height:19vw;
+                width:100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+            }
+
+            .tile-container .tile .text {
+                height:12vw;
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+    .team-text {
+        height: 10vw;
+        width: 90vw;
+        margin: 7vw 5vw 0 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+        .team-text .text{
+            height: 5vw;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 1vw;    
+        }
+    
+
+
+
+
+    .cofounder-info{
+        height: auto;
+        width:90vw;
+        margin: 5vw;
+       
+    }
+
+
+        .cofounder-info .row{
+            height: 23vw;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+        }
+
+        .cofounder-info #row2{
+            height: 23vw;
+            width: 33.75vw;
+        }
+
+        .cofounder-info .row .cofounder{
+            height: 22vw;
+            width: 15vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+            .cofounder-info .row .cofounder .image-container {
+                height:14vw;
+                width:14vw;
+                margin-bottom: 2vw;
+            }
+            
+                .cofounder-info .row .cofounder .image-container img{
+                    height:100%;
+                    width:100%;
+                }
+            
+            .cofounder-info .row .cofounder .text {
+                height: 6vw;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+                .cofounder-info .row .cofounder .text a{
+                    text-decoration: none;
+                    color:inherit;
+                }
+
+}
+
+
