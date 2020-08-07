@@ -142,13 +142,13 @@ body{
         height: auto;
         width:90vw;
         margin: 5vw;
-       
     }
 
 
         .cofounder-info .row{
             height: 23vw;
             width: 100%;
+            margin-bottom:5vw;
             display: flex;
             justify-content: space-between;
             align-content: center;
