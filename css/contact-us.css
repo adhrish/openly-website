@@ -1,0 +1,244 @@
+body::-webkit-scrollbar{display: none}
+*{
+	margin: 0 ;
+	padding: 0;
+}
+
+/*for desktop*/
+@media (min-aspect-ratio: 1/1){
+body{
+	height:150vw;
+	box-sizing: border-box;
+	overflow: scroll;
+}
+
+.landing {
+    height:28vw;
+    width: 90vw;
+    margin: 15vw 5vw 0 5vw;
+    display: flex;
+    justify-content: center;    
+}
+
+    .landing .landing-container {
+        height:100%;
+        width: 45vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+        .landing .landing-container .heading-text {
+            height: auto;
+            margin-bottom: 3vw;
+        }
+
+        .landing .landing-container .form-row {
+            height: auto;
+            width:100%;
+            margin-bottom: 3vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .landing .landing-container #two-forms {
+            margin-bottom: 3vw;
+        }
+
+        
+        
+            .landing .landing-container .form-row input{
+                background-color: rgb(245, 244, 244);
+                height: 3vw;
+                width: 17.5vw;
+                border:none;
+                text-decoration: none;
+                border-radius: 0.2vw;
+                font-size: 1vw;
+                padding-left:1vw;
+                color: rgb(45,45,45);
+                box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+
+            }
+
+            .landing .landing-container .form-row button{
+                cursor: pointer;
+                outline: none;
+                height: 3vw;
+                width: 10vw;
+                border:none;
+                text-decoration: none;
+                border-radius: 0.5vw;
+                font-size: 1vw;
+                padding-left:1vw;
+                color: rgb(45,45,45);
+                box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+                color:white;
+                background-color: rgb(0, 0, 0);
+            }
+
+
+            .landing .landing-container .form-row input::placeholder{
+                color: rgb(45,45,45);
+            }
+
+            .landing .landing-container .form-row #select {
+                height: 3vw;
+                width: 38.33vw;
+            }
+
+            .landing .landing-container .form-row #message {
+                height: 9vw;
+                width: 38.33vw;
+            }
+
+.tile-container {
+    height:28vw;
+    width: 90vw;
+    margin: 5vw 5vw 0 5vw;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .tile-container .tile {
+        height:28vw;
+        width:42.5vw;
+        border-radius: 0.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(224, 219, 219);
+        box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+
+    }
+
+        .tile-container .tile .content {
+            height:45%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tile-container .tile .content .heading {
+            margin-top:5vw;
+        }
+        .tile-container .tile .content .text {
+            margin-top:3vw;
+        }
+
+        .tile-container .tile .content button{
+                cursor: pointer;
+                outline: none;
+                height: 3vw;
+                width: 10vw;
+                border:none;
+                text-decoration: none;
+                border-radius: 0.5vw;
+                font-size: 1vw;
+                padding-left:1vw;
+                color: rgb(45,45,45);
+                box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+                color:white;
+                background-color: rgb(0, 0, 0);
+
+        }
+
+
+        .tile-container .tile .content #footersociallinkscontainer
+					{	
+                        height: auto;
+                        width: 30vw;
+                        display: flex;
+                        justify-content: space-evenly;
+					}
+					.tile-container .tile .content .footersociallinks
+							{
+								display: inline-block;
+								height: 3.5vw;
+								margin-right: 2vw;
+							}
+
+							.tile-container .tile .content .footerlinksimage
+							{	
+								
+								height: 100%;
+                            }
+                            
+
+
+
+    .long-tile {
+        height: 56vw;
+        width: 90vw;
+        margin: 5vw 5vw 0 5vw;
+        border-radius: 0.5vw;
+        box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+        background-color: rgb(224, 219, 219);
+
+    }
+
+        .long-tile #text-content {
+            border-radius: 0.5vw;
+
+            height: 15vw;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .long-tile #text-content .heading{
+                height: 2vw;
+                margin: 5vw 0 3vw 0;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .long-tile #text-content .text{
+                height: auto;
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }         
+
+
+.bottom-section {
+    height: 28vw;
+    width: 85vw;
+    margin: 5vw;
+    background-color: rgb(122, 156, 70);    
+    }
+
+    /* .bottom-section .reach-us{
+        height: 28vw;
+        width: 42.5vw;
+        background-color: khaki;
+        box-shadow: 0vw 0vw 0.5vw 0vw #0003;
+    }
+
+        .bottom-section .reach-us .heading {
+            padding: 5vw 0 0 5vw;
+            height: 8vw; 
+            width: 37.5vw;   
+            background-color: aqua;       
+        }
+
+        .bottom-section .reach-us .text{
+            height: 15vw;
+            width: 37.5vw;
+            padding:0 0 0 5vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        } */
+
+
+}
