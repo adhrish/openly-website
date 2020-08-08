@@ -3,7 +3,7 @@ function scrollHeader() {
 	if(document.body.scrollTop >= 40){
 		document.getElementById("header").style.height = "3.5vw";
 		document.getElementById("header").style.boxShadow="0 0 1vw rgba(0,0,0,0.05)";
-		ele.style.height="3vw";
+		ele.style.height="2.5vw";
 		// document.getElementById("header-logo").style.height="2.7vw"
 		
 	}
@@ -15,3 +15,4 @@ function scrollHeader() {
 	}
 
 }
+setTimeout(scrollHeader,4);

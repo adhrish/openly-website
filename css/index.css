@@ -3,57 +3,70 @@
 	/* landingpage styling		 */
 	.landingpage{
 		height:43vw;
-		width:90vw;
+		width:80vw;
 		margin: 8vw 5vw 0vw 10vw;
 		display:flex;
+		justify-content: space-between;
 	}
 
 		/* landing page left side styling  */
-		.landing-element{
-			display: flex;
-			justify-content: center;
+		.landingpage .landingpage-textcontent{
+			height: 20vw;
+			width: 35vw;
+			margin-top:10vw;
+			display: flex;		
 			flex-flow: column;
 		}
 
-			#landingpage-textcontent{
-				width:35vw;
+			.landingpage .landingpage-textcontent #rotate-text {
+				height:5vw;
+				display: flex;
+				align-items: center;	
+				margin-bottom: 3vw;	
 			}
 
-					.text-animation{
-						font-size: 2vw;
-						font-family: 'Einasemibold';
-					}
-
-
-
-				#landingpage-clickcontent{
-					display:flex;
-					
-					align-items: center;
+				.landingpage .landingpage-textcontent #rotate-text .text-animation{
+					font-size: 2vw;
+					font-family: 'Einasemibold';
 				}
 
-					#downloadbutton{
+
+			.landingpage .landingpage-textcontent #infotext{
+				height: 2vw;
+				width: 35vw;
+				margin-bottom: 2.5vw;
+			}
+
+			.landingpage .landingpage-textcontent #landingpage-clickcontent{
+				height: 3vw;
+				width: 23vw;
+				display:flex;					
+				align-items: center;
+				justify-content: space-between;
+			}
+
+				
+				.landingpage .landingpage-textcontent #landingpage-clickcontent #button {
+					height: 3vw;
+					width: 10vw;
+				}
+
+				.landingpage .landingpage-textcontent #landingpage-clickcontent #button button{
+						cursor: pointer;
 						border:none;
-						margin-top: 4vw;
 						height: 3vw;
 						width: 10vw;
 						font-family: "Einasemibold";
 						font-size: 1vw;
 						border-radius: 0.2vw;
-						box-shadow: 0vw 0vw 3vw 0vw #0003;
 					}
 
-					#getintouch{
-						text-decoration: none;
-						display:flex;
-						justify-content: center;
-						text-align: end;
-						margin: 4vw 0 0 5vw;
-						height: 2vw;
-						width: 15vw;
+					.landingpage .landingpage-textcontent #landingpage-clickcontent #getintouch{
+						display: flex;
+
 					}
 
-					#getintouch a{
+					.landingpage .landingpage-textcontent #landingpage-clickcontent #getintouch a{
 						text-decoration: none;
 					}
 
@@ -63,10 +76,10 @@
 						}
 		
 		/* landing page right side content */
-			#landingpage-imagecontent{
-				height:43vw;
-				width:50vw;
-			}		
+	.landingpage #landingpage-imagecontent{
+			height:43vw;
+			width:45vw;
+		}		
 			 
 			
 
@@ -81,40 +94,36 @@
 		align-items:center;		
 		box-shadow: 0vw 0vw 3vw 0vw #0003;
 	}
-		.downloadtext{
-			margin: 0 0 0 1.2vw;
-			font-size: 1.3vw;
+
+		.downloadcount .container {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.downloadcount .container .downloadtext{
+			font-size: 1.5vw;
 			font-family: "Einasemibold";
 		}
 		
-			.jackpot{
+			.downloadcount .container .downloadtext .jackpot{
 				background-color: rgb(45,45,45);
-				height:4vw;
-				width: 12vw;
+				height:2vw;
+				width:auto;
 				border-radius: .5vw;
 				display: flex;
-				justify-content: space-between;	
+				justify-content: center;	
 				margin: 1vw;
 			}
 			
 				.singlepot{
-					width:12vw;
+					width:auto;
 					font-family: "Einasemibold";
 					border-radius: .5vw;
 					font-size: 2.5vw;
-					text-align: center;
-					background-color: whitesmoke;
 					color: rgb(35, 35, 35);
 				}
-
-				#orderpottext{
-					margin-left: 2.5vw;
-				}
-
-		
-
-		
-	
 
 	/* opently marketplace text	 */
 	#marketplacetext{
@@ -136,19 +145,13 @@
 		text-align: center;
 	}
 	
-		.demoapp {
+		#demoappcontainer .demoapp {
 			height:12.5vw;
 			width:12.5vw;
 			border-radius: 0.5vw;
 		}
-
-		.demosnap{
-			box-shadow: 0vw 0vw 3vw 0vw #0003;
-
-		}
-
-
-			.text{
+			
+			#demoappcontainer .demoapp .text{
 				font-size: 0.9vw;
 				height:3.5vw;
 			}
@@ -173,25 +176,25 @@
 		border-radius: 0.5vw;
 		text-align: center;
 		box-sizing: border-box;
-		box-shadow: 0vw 0vw 3vw 0vw #0003;
+		/* box-shadow: 0vw 0vw 3vw 0vw #0003; */
 		}
 
 			#openlyuser img{
 				margin: 2vw 10vw 2vw 10vw;
 				background-color: rgb(56, 95, 69);
-				height: 16vw;
-				width: 22.5vw;
+				height: 16.54vw;
+				width: 22vw;
 			}
 		
 			#openlybusiness img{
 				margin: 2vw 10vw 2vw 10vw;
 				background-color: rgb(56, 95, 69);
-				height: 16vw;
-				width: 22.5vw;
+				height: 16.54vw;
+				width: 22vw;
 			}
 
 			#user-section{
-				background-color: rgb(219, 214, 214);		
+				background-color: rgb(247 241 241);		
 			}
 				
 	}
@@ -202,7 +205,7 @@
 	
 	/* footer section */
 	footer{
-		height:102vw;
+		height:96vw;
 		width:100vw;	
 	}
 
@@ -242,19 +245,18 @@
 		
 				.fromplaystore{
 					height:4vw;
-					width:8.5vw;
+					width:9vw;
 					padding: 0;	
-					border: 0;
-					margin:1vw 2vw 1vw 0;									
+					
+					border: 0;									
 				}
 
 				.fromappstore{
 					height:3.5vw;
-					width:7.7vw;
+					width:8vw;
 					padding-left: 10px;	
 					border: 0;
 					margin-left: 1;
-					margin:1vw 2vw 1vw 0;								
 				}
 
 
@@ -312,7 +314,7 @@
 					}
 
 					input[placeholder] {
-						padding-left: 2vw;
+						padding-left: 1vw;
 					}
 
 					.footerbutton{
@@ -328,12 +330,12 @@
 							
 							background-color: rgb(85, 206, 95);
 						}
-
-						
-
+			
 					.radiobutton{
 						text-decoration: rgb(45, 45, 45);
 						border:0;
+						outline: none;
+						border: none;
 					}
 
 				#sectionright{
@@ -380,7 +382,7 @@
 				padding: 5vw 10vw 5vw 10vw;
 				border-top: 2px grey solid;
 				border-bottom: 2px grey solid;
-				height:50vw;
+				height:auto;
 			}
 
 				.columns{
@@ -388,11 +390,17 @@
 					display:flex;
 					justify-content: space-between;
 				}
+
+					.columns ul{
+						margin:0;
+						padding:0;
+					}
 			
 			#fourthfootersection{
 				box-sizing: border-box;
 				padding: 0vw 10vw 0vw 10vw;
 				line-height:2vw;
+				height: 1vw;
 				margin:0;
 				font-size: 0.8vw;
 				display: flex;

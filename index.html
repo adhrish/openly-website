@@ -28,10 +28,10 @@
 		
 
 		<!-- Landing page left section -->
-		<div class='landing-element landingpage-textcontent'>
+		<div class='landingpage-textcontent'>
 
 			<!-- landing page roatating text -->
-			<div id='rotate-text'>
+			<div id='rotate-text' >
 				<h1><span class='heading15vwsemibold fadeblack'>Find</span> 
 					<span
 						class='text-animation fadeblack'
@@ -52,12 +52,12 @@
 
 			<!-- download button and click link -->
 			<div id='landingpage-clickcontent'>
-				<button  class= 'landing-clickcontent whitesmoke fadeblackbackground' id="downloadbutton">Download</button>
+				<div id="button">
+					<button  class= 'landing-clickcontent whitesmoke fadeblackbackground' >Download</button>
+				</div>
 				<div id='getintouch'>
-					<div class='landing-clickcontent'>
-						<img id='getintouchimage' src="./images/index images/vulcansalute.png" />
-						<a href="#" class="fadeblack"> Get in touch with us</a>
-					</div>
+					<img id='getintouchimage' src="./images/index images/vulcansalute.png" />
+					<a href="./contact-us.html" class="fadeblack">Get in touch with us</a>
 				</div>
 			</div>
 
@@ -66,7 +66,7 @@
 
 		<!-- landingpage right side content -->
 		<div class='landing-element'>
-				<img id="landingpage-imagecontent" src="./images/index images/iphonexhomepage.png"/>
+			<img id="landingpage-imagecontent" src="./images/index images/iphonexhomepage.png"/>
 		</div>
 	</div>		
 
@@ -78,9 +78,8 @@
 		<div class= 'container'>
 			<div class="jackpot" id="userpot">
 					<div class="singlepot" onscroll=>
-						<span id="userpotnum" animated=false></span>
-					</div>
-				
+						<span id="userpotnum" class="whitesmoke" animated=false></span>
+					</div>				
 			</div>
 			<div>
 				<span  class='downloadtext'>User downloads</span>
@@ -89,7 +88,7 @@
 		<div class= 'container'>
 			<div class="jackpot" id="vendorpot">
 					<div class="singlepot">
-						<span id="vendorpotnum" animated='false'></span>
+						<span id="vendorpotnum" class="whitesmoke" animated='false'></span>
 					</div>
 			</div>
 			<div>
@@ -100,7 +99,7 @@
 		<div class= 'container' id="orderpot">
 			<div class="jackpot">
 					<div class="singlepot">
-						<span id=orderpotnum animated='false'></span>
+						<span id=orderpotnum class="whitesmoke" animated='false'></span>
 					</div>
 					
 			</div>
@@ -251,7 +250,8 @@
 						<div>
 							<input type="radio" class= "radiobutton">
 							<label class="whitesmoke"><span class="whitesmoke">I want to list my store</span></label><br>
-				
+						</div>
+						<div>
 							<input type="radio" class= "radiobutton">
 							<label class="whitesmoke">Others</label>
 						</div>
@@ -268,10 +268,10 @@
 								<span class="whitesmoke heading2vwsemibold " id="followopenlytext">Follow Openly</span>
 							</div>
 							<div id="footersociallinkscontainer">
-								<a href="#"><div class="footersociallinks" id="innsta"><img class="footerlinksimage" src="images/index images/icons/instagram.svg"></div></a>
-								<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/index images/icons/facebook.svg"></div></a>
-								<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/index images/icons/linkedin.svg"></div></a>
-								<a href="#"><div class="footersociallinks"><img class="footerlinksimage" src="images/index images/icons/twitter.svg"></div></a>
+								<a href="https://www.instagram.com/openlyofficial/?hl=en"><div class="footersociallinks" id="innsta"><img class="footerlinksimage" src="images/index images/icons/instagram.svg"></div></a>
+								<a href="https://www.facebook.com/openlyofficial"><div class="footersociallinks"><img class="footerlinksimage" src="images/index images/icons/facebook.svg"></div></a>
+								<a href="https://www.linkedin.com/company/openlyofficial/"><div class="footersociallinks"><img class="footerlinksimage" src="images/index images/icons/linkedin.svg"></div></a>
+								<a href="https://twitter.com/openlyofficial?s=08"><div class="footersociallinks"><img class="footerlinksimage" src="images/index images/icons/twitter.svg"></div></a>
 							</div>
 						</div>
 						<div id='gethelpdiv'>
@@ -300,145 +300,91 @@
 				<!-- third footer content -->
 				<div class="columns">
 					<div class="whitesmoke">
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>							
+						<ul class="heading1vwsemibold">Daily Essentials</ul> <br>
+						<ul>Super Market</ul>
+						<ul>Kirana Store</ul>
+						<ul>Meat & Seafood</ul>
+						<ul>Bakery</ul>
+						<ul>Daily Milk & Newspaper</ul>
+						<ul>Water delivery</ul>
+						<ul>Pet Care Store</ul>
+						<br> <br>
+						<ul class="heading1vwsemibold">Snacks & Sweets</ul> <br>
+						<ul class="heading1vwsemibold">Fruits & Vegetables</ul> <br>
+						<ul class="heading1vwsemibold">Retail & Shopping</ul> <br> 
+						<ul>Retail Outlets</ul>
+						<ul>Electrical Shops</ul>
+						<ul>Hardware Stores</ul>
+						
+
+						
+
 					</div>
 					<div class="whitesmoke">
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>							
+						<ul>Fixture & Fitting Shops</ul>
+						<ul>Beauty & Cosmetic Stores</ul>
+						<ul>Flower Shops</ul>
+						<ul>Gift Stores</ul>
+						<ul>Stationary Shops</ul>
+						<ul>Gardenining Stores</ul>
+						<ul>Hobby Stores</ul>
+						<ul>Home & Décor</ul>
+						<ul>Mobile & Elecronics</ul>
+						<ul>Sports Stores</ul>
+						<ul>Book Stores</ul>
+						<ul>Departmental Stores</ul> <br> <br>
+						<ul class="heading1vwsemibold">Home Services</ul> <br> 
+						<ul>Electricians</ul>
+						<ul>Carpenters</ul>
+						<ul>Plumbers</ul>
+						<ul>Mason</ul>
+
+					
 					</div>
 					<div class="whitesmoke">
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>							
+						
+						<ul>Fabrication</ul>
+						<ul>Painters</ul>
+						<ul>Appliance repair</ul>
+						<ul>AC Service & Repairs</ul>
+						<ul>Electronics Repairs</ul>
+						<ul>House Cleaning</ul>
+						<ul>Pest Control</ul>
+						<ul>Sofa & Carpet Cleaning</ul>
+						<ul>Laundry & Dry Cleaning</ul> <br> <br>
+						<ul class="heading1vwsemibold">Services</ul> <br> 
+						<ul>Car Wash</ul>
+						<ul>Car Service & Repairs</ul>
+						<ul>Bike Service & Repairs</ul>
+						<ul>ISP & DTH</ul>
+						<ul>Packers & Movers</ul>
+						<ul>Courier</ul>
+						<ul>Printing & Photocopy</ul>
+						
+									
 					</div>
 					<div class="whitesmoke">
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>							
+						<ul>Day Care</ul>
+						<ul>Driving School</ul> <br> <br>
+						<ul class="heading1vwsemibold">Professionals</ul> <br> 
+						<ul>Cook</ul>
+						<ul>Tutor</ul>
+						<ul>Driver</ul>
+						<ul>Photographer</ul>
+						<ul>Elderly care</ul>
+						<ul>Maids</ul>
+										
+						<ul>Tailors</ul>
+						<ul>Locksmiths</ul>
+						<ul>Baby Sitters</ul>
+						<ul>Personal Trainers</ul>
+						<ul>Dieticians</ul>
+						<ul>Beauticians</ul> <br> 
+						<ul class="heading1vwsemibold">And Many Others!</ul> <br> <br>
+						
+						
 					</div>
-					<div class="whitesmoke">
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-						<li>Daily Essential</li>
-					</div>
+			
 				</div>
 			</div>
 
@@ -451,7 +397,7 @@
 					<span>2020 Keitai Technologies Private Limited</span>
 				</div>
 				<div>
-					<span>All rights reserved.</span>
+					<span>All rights reserved</span>
 				</div>
 			</div>
 
