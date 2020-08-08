@@ -177,8 +177,6 @@ body{
         margin: 5vw 5vw 0 5vw;
         border-radius: 0.5vw;
         box-shadow: 0vw 0vw 0.5vw 0vw #0003;
-        background-color: rgb(224, 219, 219);
-
     }
 
         .long-tile #text-content {
@@ -213,32 +211,60 @@ body{
     height: 28vw;
     width: 85vw;
     margin: 5vw;
-    background-color: rgb(122, 156, 70);    
+    display: flex;
+    justify-content: space-between;
     }
 
-    /* .bottom-section .reach-us{
-        height: 28vw;
-        width: 42.5vw;
-        background-color: khaki;
-        box-shadow: 0vw 0vw 0.5vw 0vw #0003;
-    }
+    .bottom-section .tile{
+        height: 18vw;
+        width: 37.5vw;
+        padding: 5vw 0 5vw 5vw;
+        display: flex;
+        flex-direction: column;
+    }       
 
-        .bottom-section .reach-us .heading {
-            padding: 5vw 0 0 5vw;
-            height: 8vw; 
-            width: 37.5vw;   
-            background-color: aqua;       
+        .bottom-section .tile .heading {
+            height: 2vw;
+            width: 10vw;
+            margin-bottom: 5vw;
         }
 
-        .bottom-section .reach-us .text{
-            height: 15vw;
-            width: 37.5vw;
-            padding:0 0 0 5vw;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
+            .bottom-section .tile .text{
+                height: 3vw;
+                display: flex;
+                flex-direction: column;
+            }
 
-        } */
+                .bottom-section .tile .text .point {
+                    height: 2vw;
+                    width: auto;
+                    display: flex;
+                    margin-bottom:2vw;
+=                }
+
+                    .bottom-section .tile .text .point .icon-div {
+                        background-color: black;
+                        height: 1.25vw;
+                        width: 1.25vw;
+                        margin-right: 2.5vw;
+                        border-radius: 1vw;
+                    }
+        
+        .bottom-section .map-section {
+            height: 28vw;
+            width:40vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .bottom-section .map-section .map{
+                height: 26vw;
+                width: 38vw;
+                background-color:rgb(45,45,45);
+            }
+
+
 
 
 }
