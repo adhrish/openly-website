@@ -106,21 +106,7 @@ setTimeout( () => {
 
 
 
-// document.addEventListener('scroll', () => {
-// 	if (document.body.scrollTop>156){
-// 		let count = 1;
-// 		if(count===1) {
-// 			animateCount();
-// 			count++;
-// 		}
-// 	}
-// });
 
-// if(document.body.scrollTop>156)
-// {
-// 	animateCount();
-// 	let count=1;
-// }
 
 
 
