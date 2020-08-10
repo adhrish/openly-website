@@ -44,12 +44,24 @@ body{
             align-items: center;
         }
 
+        .landing .landing-container .form-row  select{
+            background-color: rgb(245, 244, 244);
+            border:none;
+            outline: none;
+            height: auto;
+            width:100%;
+            border-radius: 0.2vw;
+            font-size: 1vw;
+            padding-left:1vw;
+            padding-right:1vw;
+            color: rgb(45,45,45);
+            box-shadow: 0vw 0vw 0.5vw 0vw #0003;            
+        }
+
         .landing .landing-container #two-forms {
             margin-bottom: 3vw;
         }
-
-        
-        
+      
             .landing .landing-container .form-row input{
                 background-color: rgb(245, 244, 244);
                 height: 3vw;
@@ -61,7 +73,6 @@ body{
                 padding-left:1vw;
                 color: rgb(45,45,45);
                 box-shadow: 0vw 0vw 0.5vw 0vw #0003;
-
             }
 
             .landing .landing-container .form-row button{

@@ -24,6 +24,7 @@ rotation.prototype.animate = function() {
 	this.el.innerHTML = `<span style="border-right: 0.08em solid #666">${this.text}</span>`;
 
 	  if(fullText === this.text) {
+		  flickTime=3000;
 		  this.isDeleting = true;
 	  }else if (this.text==='') {
 		  this.loopNum++;
@@ -47,13 +48,7 @@ window.onload = () => {
 
 
 
-
-
-
-
-
-
-
+// for download count
 function downloadcount(element, target){
 	if(element.getAttribute('animated') == "false"){
 			function counter(i=0) {
@@ -91,18 +86,18 @@ function animateCount() {
 		}
 	
 }
-setTimeout( () =>{
-let animateVariable=1;
-document.addEventListener('scroll', () => {
-setTimeout( () => {
-	if (document.body.scrollTop>=156){
-		if(animateVariable===1) {
-			animateCount();
-			animateVariable++;
-		} else {
 
-		}	}
-},40)})},40);
+
+
+let animateVariable=false;
+
+document.addEventListener('scroll', () => {
+	if (document.body.scrollTop>=156&&!animateVariable){
+		animateCount();
+		animateVariable=true;
+		}
+	}
+)
 
 
 
