@@ -55,7 +55,7 @@ window.onload = () => {
 
 
 function downloadcount(element, target){
-	if(document.body.scrollTop>=80 && element.getAttribute('animated') == "false"){
+	if(element.getAttribute('animated') == "false"){
 			function counter(i=0) {
 			if(i==target){
 				element.setAttribute('animated', true);
@@ -64,34 +64,63 @@ function downloadcount(element, target){
  				element.innerHTML= i;
 				setTimeout(() => {
 					counter(++i);
-				}, 0);
+				}, 100);
 			}		
 		 }counter();
 	}		
 }
 
 function animateCount() {
-	const response = JSON.parse(localStorage.getItem('downloadCounts'));
-	const items = [
-		{
-			element: document.getElementById("userpotnum"),
-			target: response.users,
-		},
-		{
-			element: document.getElementById("vendorpotnum"),
-			target: response.stores,
-		},
-		{
-			element: document.getElementById("orderpotnum"),
-			target: response.orders,
-		}];
-	for(let i = 0; i < items.length; i++) {
-		downloadcount(items[i].element, items[i].target);
-	}
+
+		const response = JSON.parse(localStorage.getItem('downloadCounts'));
+		const items = [
+			{
+				element: document.getElementById("userpotnum"),
+				target: response.users,
+			},
+			{
+				element: document.getElementById("vendorpotnum"),
+				target: response.stores,
+			},
+			{
+				element: document.getElementById("orderpotnum"),
+				target: response.orders,
+			}];
+		for(let i = 0; i < items.length; i++) {
+			downloadcount(items[i].element, items[i].target);
+		}
+	
 }
+setTimeout( () =>{
+let animateVariable=1;
+document.addEventListener('scroll', () => {
+setTimeout( () => {
+	if (document.body.scrollTop>=156){
+		if(animateVariable===1) {
+			animateCount();
+			animateVariable++;
+		} else {
 
-document.addEventListener('scroll', animateCount);
+		}	}
+},40)})},40);
 
+
+
+// document.addEventListener('scroll', () => {
+// 	if (document.body.scrollTop>156){
+// 		let count = 1;
+// 		if(count===1) {
+// 			animateCount();
+// 			count++;
+// 		}
+// 	}
+// });
+
+// if(document.body.scrollTop>156)
+// {
+// 	animateCount();
+// 	let count=1;
+// }
 
 
 

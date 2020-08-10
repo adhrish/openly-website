@@ -31,7 +31,7 @@
 		<div class='landingpage-textcontent'>
 
 			<!-- landing page roatating text -->
-			<div id='rotate-text' >
+			<div id='rotate-text'>
 				<h1><span class='heading15vwsemibold fadeblack'>Find</span> 
 					<span
 						class='text-animation fadeblack'
@@ -55,8 +55,8 @@
 				<div id="button">
 					<button  class= 'landing-clickcontent whitesmoke fadeblackbackground' >Download</button>
 				</div>
-				<div id='getintouch'>
-					<img id='getintouchimage' src="./images/index images/vulcansalute.png" />
+				<div id="getintouch">
+					<img id="getintouchimage" src="./images/index images/vulcansalute.png" />
 					<a href="./contact-us.html" class="fadeblack">Get in touch with us</a>
 				</div>
 			</div>
@@ -78,7 +78,7 @@
 		<div class= 'container'>
 			<div class="jackpot" id="userpot">
 					<div class="singlepot" onscroll=>
-						<span id="userpotnum" class="whitesmoke" animated=false></span>
+						<span id="userpotnum" class="whitesmoke" animated=false>0</span>
 					</div>				
 			</div>
 			<div>
@@ -88,7 +88,7 @@
 		<div class= 'container'>
 			<div class="jackpot" id="vendorpot">
 					<div class="singlepot">
-						<span id="vendorpotnum" class="whitesmoke" animated='false'></span>
+						<span id="vendorpotnum" class="whitesmoke" animated='false'>0</span>
 					</div>
 			</div>
 			<div>
@@ -99,7 +99,7 @@
 		<div class= 'container' id="orderpot">
 			<div class="jackpot">
 					<div class="singlepot">
-						<span id=orderpotnum class="whitesmoke" animated='false'></span>
+						<span id=orderpotnum class="whitesmoke" animated='false'>0</span>
 					</div>
 					
 			</div>
@@ -122,25 +122,25 @@
 
 	<!-- Demoapp picture segment -->
 	<div id='demoappcontainer'>
-		<div >
-			<img class= 'demoapp demosnap' id='demo1' src='./images/index images/demo1.png' alt=></img>
-			<p class='demoapp text'>Launch the Openly app and find your favourite store from around you</p>
+		<div class= 'snap'>
+			<img class= 'demoapp' id='demo1' src='./images/index images/demo1.png' alt=></img>
+			<p class='text'>Launch the Openly app and find your favourite store from around you</p>
 		</div>
-		<div>
-			<img class= 'demoapp demosnap' id='demo2' src='./images/index images/demo2.png'></img>
-			<p class='demoapp text'>Open the store to see their listed products and services</p>
+		<div class='snap'>
+			<img class= 'demoapp' id='demo2' src='./images/index images/demo2.png'></img>
+			<p class=' text'>Open the store to see their listed products and services</p>
 		</div>
-		<div>
-			<img class= 'demoapp demosnap' id='demo3' src='./images/index images/demo3.png'></img>
-			<p class='demoapp text'>Browse for your items or services and place and order by paying online</p>
+		<div class='snap'>
+			<img class= 'demoapp' id='demo3' src='./images/index images/demo3.png'></img>
+			<p class=' text'>Browse for your items or services and place and order by paying online</p>
 		</div>
-		<div>
-			<img class= 'demoapp demosnap de' id='demo4' src='./images/index images/demo4.png'></img>
-			<p class='demoapp text'>The store owners sees your order and accepts it on their own app</p>
+		<div class='snap'>
+			<img class= 'demoapp' id='demo4' src='./images/index images/demo4.png'></img>
+			<p class=' text'>The store owners sees your order and accepts it on their own app</p>
 		</div>
-		<div>
-			<img class= 'demoapp demosnap' id='demo5' src='./images/index images/demo5.png'></img>
-			<p class='demoapp text'>Finally! Services will be completed or your product will be delivered</p>
+		<div class='snap'>
+			<img class= 'demoapp' id='demo5' src='./images/index images/demo5.png'></img>
+			<p class=' text'>Finally! Services will be completed or your product will be delivered</p>
 		</div>			
 	</div>
 
@@ -149,16 +149,16 @@
 
 	<!-- User business tiles section	 -->
 	<div id='ubsection'>
-		<div  class='ubsectionelement' id='user-section'>
+		<a href="./Consumer-app-page.html"><div  class='ubsectionelement' id='user-section'>
 			<div>
 				<span class='heading2vwsemibold fadeblack' id="openlymarketplace">Openly Marketplace</span><br><br>
 				<span class='fadeblack'> Download Openly app to find stores near you.</span>
 			</div>
 			<div id="openlyuser">
 				<img src="./images/index images/usertileimage.png" />
-			</div>
+			</div></a>
 		</div>
-		<div  class='ubsectionelement fadeblackbackground' id="business-section">
+		<a href="./vendor-app-page.html"><div  class='ubsectionelement fadeblackbackground' id="business-section">
 			<div>  
 				<span class='heading2vwsemibold whitesmoke' id="openlybusiness">Openly for Business</span><br><br>
 				<span class='whitesmoke'>List your store on Openly app and start taking orders.</span>
@@ -166,7 +166,7 @@
 			<div class='ubsectionelementimage' id="openlybusiness">
 				<img src="./images/index images/businesstileimage.png" />
 			</div>
-		</div>
+		</div></a>
 	</div>
 
 
@@ -233,7 +233,7 @@
 			<div class='secondfootersection fadeblackbackground'>
 
 					<!-- second footer left section -->
-					<div class="secondfootersections" id="sectionleft">
+					<div id="sectionleft">
 						<div id="contactustext">
 							<span class="whitesmoke heading2vwsemibold ">Contact us</span>
 						</div>
@@ -246,14 +246,20 @@
 							<form action="">
 								<input class="footerforms whitesmoke" type="text" placeholder="Email or Phone number" ><Span></Span>
 							</form>
-						</div>							
-						<div>
-							<input type="radio" class= "radiobutton">
-							<label class="whitesmoke"><span class="whitesmoke">I want to list my store</span></label><br>
-						</div>
-						<div>
-							<input type="radio" class= "radiobutton">
-							<label class="whitesmoke">Others</label>
+						</div>	
+						<div class="radio-selection">						
+							<div class="line">
+								<div>
+									<input type="radio" class= "radiobutton"/>
+								</div> 
+								<div>
+									<label class="whitesmoke"><span class="whitesmoke">I want to list my store</span></label><br>
+								</div>
+							</div>
+							<div class='line'>
+								<input type="radio" class= "radiobutton"/>
+								<label class="whitesmoke">Others</label>
+							</div>
 						</div>
 						<div>
 							<button class="footerbutton"><span id="send">Send</span></button>
@@ -308,21 +314,19 @@
 						<ul>Daily Milk & Newspaper</ul>
 						<ul>Water delivery</ul>
 						<ul>Pet Care Store</ul>
-						<br> <br>
-						<ul class="heading1vwsemibold">Snacks & Sweets</ul> <br>
-						<ul class="heading1vwsemibold">Fruits & Vegetables</ul> <br>
+						<ul>Snacks & Sweets</ul>
+						<ul>Fruits & Vegetables</ul> <br> <br>
 						<ul class="heading1vwsemibold">Retail & Shopping</ul> <br> 
 						<ul>Retail Outlets</ul>
 						<ul>Electrical Shops</ul>
 						<ul>Hardware Stores</ul>
-						
+						<ul>Fixture & Fitting Shops</ul>
+						<ul>Beauty & Cosmetic Stores</ul>
 
 						
 
 					</div>
 					<div class="whitesmoke">
-						<ul>Fixture & Fitting Shops</ul>
-						<ul>Beauty & Cosmetic Stores</ul>
 						<ul>Flower Shops</ul>
 						<ul>Gift Stores</ul>
 						<ul>Stationary Shops</ul>
@@ -338,14 +342,15 @@
 						<ul>Carpenters</ul>
 						<ul>Plumbers</ul>
 						<ul>Mason</ul>
+						<ul>Fabrication</ul>
+						<ul>Painters</ul>
 
 					
 					</div>
 					<div class="whitesmoke">
 						
-						<ul>Fabrication</ul>
-						<ul>Painters</ul>
 						<ul>Appliance repair</ul>
+						
 						<ul>AC Service & Repairs</ul>
 						<ul>Electronics Repairs</ul>
 						<ul>House Cleaning</ul>
@@ -360,13 +365,14 @@
 						<ul>Packers & Movers</ul>
 						<ul>Courier</ul>
 						<ul>Printing & Photocopy</ul>
+						<ul>Day Care</ul>
+						<ul>Driving School</ul> <br> <br>
 						
 									
 					</div>
 					<div class="whitesmoke">
-						<ul>Day Care</ul>
-						<ul>Driving School</ul> <br> <br>
-						<ul class="heading1vwsemibold">Professionals</ul> <br> 
+						
+						<ul class="heading1vwsemibold">Professionals</ul> <br>
 						<ul>Cook</ul>
 						<ul>Tutor</ul>
 						<ul>Driver</ul>
@@ -379,8 +385,8 @@
 						<ul>Baby Sitters</ul>
 						<ul>Personal Trainers</ul>
 						<ul>Dieticians</ul>
-						<ul>Beauticians</ul> <br> 
-						<ul class="heading1vwsemibold">And Many Others!</ul> <br> <br>
+						<ul>Beauticians</ul> <br> <br>
+						<ul class="heading1vwsemibold">And Many More!</ul> <br> <br>
 						
 						
 					</div>
@@ -394,10 +400,10 @@
 			<!-- fourth footer section -->
 			<div class='whitesmoke'id="fourthfootersection">
 				<div>
-					<span>2020 Keitai Technologies Private Limited</span>
+					2020 Keitai Technologies Private Limited
 				</div>
 				<div>
-					<span>All rights reserved</span>
+					All rights reserved
 				</div>
 			</div>
 
