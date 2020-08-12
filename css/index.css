@@ -26,7 +26,7 @@
 			}
 
 				.landingpage .landingpage-textcontent #rotate-text .text-animation{
-					font-size: 2vw;
+					font-size: 2.25vw;
 					font-family: 'Einasemibold';
 				}
 
@@ -102,7 +102,8 @@
 
 		.downloadcount .container .downloadtext{
 			font-size: 1.5vw;
-			font-family: "Einasemibold";
+			font-family: "Einaregular";
+			font-weight: 900;
 		}
 		
 			.downloadcount .container .downloadtext .jackpot{
@@ -138,6 +139,7 @@
 	/* Demo app pictures stylinsg */
 	#demoappcontainer{		
 		margin: 3vw 10vw 0 10vw;
+		height:auto;
 		display:flex;
 		justify-content: space-between;
 		text-align: center;
@@ -150,11 +152,18 @@
 		justify-content: center;
 		align-items: center;
 	}
+
+	
 	
 		#demoappcontainer .snap .demoapp {
-			height:12.5vw;
-			width:12.5vw;
+			height:180px;
+			width:90px;
 			border-radius: 0.5vw;
+			transition-duration: 0.3s;
+		}
+
+		#demoappcontainer .snap .demoapp:hover{
+			transform: scale(1.03);
 		}
 			
 			#demoappcontainer .snap .text{
@@ -234,7 +243,7 @@
 					justify-content: space-between;
 					flex-flow:column;
 					height:9vw;
-					width:40vw;
+					width:63vw;
 					margin-right: 2vw;
 				}	
 					
@@ -255,13 +264,14 @@
 				.fromplaystore{
 					height:4vw;
 					width:9vw;
+					margin-left: 2.75px;
 					padding: 0;	
 					border: 0;									
 				}
 
 				.fromappstore{
 					height:3.5vw;
-					width:7.8vw;
+					width:8vw;
 					padding-left: 10px;	
 					border: 0;
 					margin-left: 1;
@@ -304,8 +314,8 @@
 			}	
 
 				#sectionleft{
-					width:40vw;
 					display:flex;
+					width:60vw;
 					flex-flow: column;
 					justify-content: space-between;
 				}
@@ -422,9 +432,9 @@
 					justify-content: space-between;
 				}
 
+
 					.columns ul{
-						margin:0;
-						padding:0;
+						margin:0 0 0.2vw 0;
 					}
 			
 			#fourthfootersection{
