@@ -24,7 +24,7 @@ rotation.prototype.animate = function() {
 	this.el.innerHTML = `<span style="border-right: 0.08em solid #666">${this.text}</span>`;
 
 	  if(fullText === this.text) {
-		  flickTime=3000;
+		  flickTime=4000;
 		  this.isDeleting = true;
 	  }else if (this.text==='') {
 		  this.loopNum++;
@@ -59,9 +59,9 @@ function downloadcount(element, target){
  				element.innerHTML= i;
 				setTimeout(() => {
 					counter(++i);
-				}, 100);
+				}, 500);
 			}		
-		 }counter();
+		 }counter(target-5);
 	}		
 }
 
