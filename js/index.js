@@ -24,7 +24,7 @@ rotation.prototype.animate = function() {
 	this.el.innerHTML = `<span style="border-right: 0.08em solid #666">${this.text}</span>`;
 
 	  if(fullText === this.text) {
-		  flickTime=4000;
+		  flickTime=3000;
 		  this.isDeleting = true;
 	  }else if (this.text==='') {
 		  this.loopNum++;
@@ -59,9 +59,9 @@ function downloadcount(element, target){
  				element.innerHTML= i;
 				setTimeout(() => {
 					counter(++i);
-				}, 500);
+				}, 75);
 			}		
-		 }counter(target-5);
+		 }counter(target-15);
 	}		
 }
 
@@ -71,15 +71,18 @@ function animateCount() {
 		const items = [
 			{
 				element: document.getElementById("userpotnum"),
-				target: response.users,
+				target: 100,
+				// target: response.users,
 			},
 			{
 				element: document.getElementById("vendorpotnum"),
-				target: response.stores,
+				target: 100,
+				// target: response.stores,
 			},
 			{
 				element: document.getElementById("orderpotnum"),
-				target: response.orders,
+				target: 100,
+				// target: response.orders,
 			}];
 		for(let i = 0; i < items.length; i++) {
 			downloadcount(items[i].element, items[i].target);

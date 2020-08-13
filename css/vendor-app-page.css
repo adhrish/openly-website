@@ -13,7 +13,7 @@ body{
 }
 #landingcontainer {
 	background-image:url("../images/vendor-app-page/landingimage.png");
-	margin:0 0 0 0;
+	margin:8vw 0 0 0;
 	height: 42vw;
 	width: 100vw;
 	text-align: center;
@@ -125,40 +125,32 @@ body{
 			width: 42.5vw;
 			border-radius: 0.5vw;
 			box-shadow: 4px 12px 35px 6px rgba(0,0,0,0.09);
-			display:flex;
-			flex-direction: column;
-			justify-content: space-between;
-			align-items: center;			
 			overflow: hidden;
 		}
 
 
 			.small-tile .small-tile-text{
-				height: 12vw;
+				height: 5vw;
 				width: 42.5vw;
 				border-radius: 0.5vw;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				text-align: center;
+				margin-bottom:1vw;
 			}
 
-				.small-tile-text span{
-					padding:0;
-					margin: 0;
-				}
 
 				.small-tile-text .text-heading {
-					margin: 5vw 0 2vw 0;
+					margin: 4vw 0 1vw 0;
 				}
 
+
+
 			.small-tile .small-tile-image{
-				height: 15vw;
+				height: 19vw;
 				width: 42.5vw;	
 				overflow: hidden;	
 			}
 				.small-tile-image img{
-					
-					height: 15vw;
+					height: 19vw;
 					width: 42.5vw;			
 				}
 			
@@ -168,35 +160,30 @@ body{
 			width: 42.5vw;
 			border-radius: 0.5vw;
 			box-shadow: 4px 12px 35px 6px rgba(0,0,0,0.09);
-			display:flex;
-			flex-direction: column;
-			justify-content: space-between;
-			align-items: center;	
 			overflow: hidden;
 
 		}
 
 			.big-tile .big-tile-text{
-				height: 18vw;
+				height: 6vw;
 				width: 42.5vw;
-				border-radius: 0.5vw 0.5vw 0 0;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
+				border-radius: 0.5vw;
+				text-align: center;
+				margin-bottom:1vw;
 			}
 
 			.big-tile-text .text-heading {
-				margin: 5vw 0 2vw 0;
+					margin: 4vw 0 1vw 0;
 			}
 
 
 			.big-tile .big-tile-image{
-				height: 36vw;
+				height: 45vw;
 				width: 42.5vw;	
 				overflow: hidden;		
 			}
 				.big-tile-image img{
-					height: 36vw;
+					height: 45vw;
 					width: 42.5vw;			
 				}
 			
@@ -206,32 +193,36 @@ body{
 #extra-tile {
 	height: 28vw;
 	width: 90vw;
-	margin: 0 5vw 5vw 5vw;
 	border-radius: 0.5vw;
 	box-shadow: 4px 12px 35px 6px rgba(0,0,0,0.09);
+	overflow: hidden;
+	margin:0 5vw 0 5vw;
 }
 
 
+
 	#extra-tile .extra-tile-text{
-		height: 12vw;
+		height: 5vw;
 		width: 90vw;
 		border-radius: 0.5vw;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		align-items: center;
+		text-align: center;
+		margin-bottom:1vw;
 	}
 
-	.extra-tile .extra-tile-image{
-		height: 16vw;
+		#extra-tile .extra-tile-text .heading{
+			margin:4vw 0 1vw 0;
+		}
+
+	#extra-tile .extra-tile-image{
+		height: 18vw;
 		width: 90vw;
-		border-radius: 0.5vw;
+		border-radius: 0 0 0.5vw 0.5vw;
 		overflow: hidden;
 		
 	}
 		.extra-tile-image img{
 			border-radius:0 0 0.5vw 0.5vw;
-			height: 16vw;
+			height: 18vw;
 			width: 90vw;			
 		}
 

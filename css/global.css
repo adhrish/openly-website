@@ -44,7 +44,10 @@
 	font-family:"Einasemibold";
 }	
 
-
+.shadowclass{
+	background-color: rgb(250,250,250);
+	   box-shadow: 0vw 0.75vw 2vw 0vw rgba(128, 95, 95, 0.2);
+}
 
 
 /* textcolor */

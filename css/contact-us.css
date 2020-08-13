@@ -58,8 +58,10 @@ body{
                 border-radius: 0.2vw;
                 font-size: 1vw;
                 padding-left:1vw;
+                border: 1px solid rgb(220, 220, 220);
                 color: rgb(45,45,45);
-                box-shadow: 4px 12px 35px 6px rgba(0,0,0,0.09);
+                box-shadow: none;
+                /* transition-duration:s; */
             }
 
 
@@ -72,7 +74,6 @@ body{
                 text-decoration: none;
                 border-radius: 0.5vw;
                 font-size: 1vw;
-                padding-left:1vw;
                 color: rgb(45,45,45);
                 color:white;
                 background-color: rgb(0, 0, 0);
@@ -99,7 +100,6 @@ body{
     display: flex;
     justify-content: space-between;
     border-radius: 0.5vw;
-
 }
 
 .tile-container .tile:hover{
@@ -112,17 +112,15 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: #ffffff;
         transition: transform 0.4s;
         border-radius: 0.5vw;
-        box-shadow: 4px 12px 35px 6px rgba(0,0,0,0.09);
-
     }
 
-
-    
-
-    
+    .tile-container a{
+        text-decoration: none;
+        margin:0;
+        padding:0;
+    }
 
         .tile-container #social-media-tile .content {
             height:45%;
@@ -142,10 +140,11 @@ body{
             width:15vw;
         }
         .tile-container .tile .content .heading {
-            margin-top:5vw;
+            margin-top:4vw;
+            margin-bottom: 1vw;
         }
         .tile-container .tile .content .text {
-            margin-top:3vw;
+            margin-bottom: 1vw;
         }
 
         .tile-container .tile .content button{
@@ -161,7 +160,6 @@ body{
                 color: rgb(45,45,45);
                 color:white;
                 background-color: rgb(0, 0, 0);
-
         }
 
 
@@ -199,17 +197,15 @@ body{
     .long-tile {
         height: 56vw;
         width: 90vw;
-        background-color: #ffffff;
         margin: 5vw 5vw 0 5vw;
         border-radius: 0.5vw;
-        transition: transform 0.3s;
-        box-shadow: 4px 12px 35px 6px rgba(0,0,0,0.09);
+        /* transition: transform 0.3s; */
 
     }
-
+/* 
     .long-tile:hover{
         transform:scale(1.03);
-    }
+    } */
 
         .long-tile #text-content {
             border-radius: 0.5vw;
